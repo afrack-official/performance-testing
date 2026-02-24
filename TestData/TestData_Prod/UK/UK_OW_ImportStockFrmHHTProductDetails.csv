@@ -1,0 +1,501 @@
+productType|productAvgSales|productCaseCost|productCurrentStock|productNoOfOrders|productOnOrder|productOnOrderCases|productOrderPackSize|productPackSize|productProductId|productProductName|productSellingPrice|productShelfLifeDays|productSupplierId|supplierListId1|supplierListType1|supplierListId2|supplierListType2|supplierListId3|supplierListType3|supplierListId4|supplierListType4|supplierListId5|supplierListType5|supplierListId6|supplierListType6|supplierListId7|supplierListType7|supplierListId8|supplierListType8|supplierListId9|supplierListType9|supplierListId10|supplierListType10|supplierListId11|supplierListType11|supplierListId12|supplierListType12|supplierListId13|supplierListType13|supplierListId14|supplierListType14|supplierListId15|supplierListType15|supplierListId16|supplierListType16|productUnitCost|productUnitIncase|barCode
+HandheldProductDetail|0|0.62|0|false|0|0|1x1xEACH||C0000000880|EASTER  SINGLE CARD  CODE M X1|1.45|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||0.62|1|5026309550393
+HandheldProductDetail|46|15.09|6|false|0|0|6x1xEACH||C0000000881|INNOCENT SMTH MNGO&PAS 750MLS|4.25|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.515|6|5038862340601
+HandheldProductDetail|512|10.74|28|false|16|2|8x1xEACH||C0000000882|INNO SMTHIE STRWB & BAN 250ML|2.4|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.3425|8|92179
+HandheldProductDetail|0|26.68|0|false|0|0|6x1xEACH||C0000000883|BENYLIN ADULT CHESTY COUGH 150ML|7.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||4.446666|6|5010123727703
+HandheldProductDetail|44|38.63|0|false|0|0|6x1xEACH||C0000000884|BAREFOOT PINOT GRI 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.438333|6|91553
+HandheldProductDetail|53|37.88|0|false|0|0|6x1xEACH||C0000000885|BAREFOOT WHITE ZIN 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.313333|6|91599
+HandheldProductDetail|29|14.21|12|false|0|0|8x1xEACH||C0000000886|FULLERS LONDON PRIDE 500ML|3.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.77625|8|5011885003647
+HandheldProductDetail|360|10.74|26|false|8|1|8x1xEACH||C0000000893|INNO SMTHIE MNG & P/FRT 250ML|2.4|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.3425|8|92180
+HandheldProductDetail|13|88.31|4|false|0|0|6x1xEACH||C0000000894|FAMOUS GROUSE WHISKY 70CL|22|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||14.718333|6|91642
+HandheldProductDetail|0|85.66|0|false|0|0|6x1xEACH||C0000000895|PIMMS NO 1 70CL|21.5|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||14.276666|6|92547
+HandheldProductDetail|11|18.79|7|false|0|0|6x1xEACH||C0000000896|CALPOL SIX PLUS S/F 80ML|5.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.131666|6|3574660435221
+HandheldProductDetail|0|23.52|0|false|0|0|10x1xEACH||C0000000897|MR KIP CHERRY B/WELL 6S|3.2|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.352|10|5000221001386
+HandheldProductDetail|236|19.32|9|false|12|1|12x1xEACH||C0000000898|DORITOS CHILLI HEAT 150G|3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.61|12|89083
+HandheldProductDetail|145|19.32|23|false|0|0|12x1xEACH||C0000000899|DORITOS COOL ORIG 150G|3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.61|12|89085
+HandheldProductDetail|186|19.32|13|false|12|1|12x1xEACH||C0000000900|DORITOS TANGY CHEESE 150G|3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.61|12|89084
+HandheldProductDetail|205|6.0|7|false|12|2|6x1xEACH||C0000000902|VOLVIC TOF ORIGINAL LEMON & L 750ML|1.9|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.0|6|93190
+HandheldProductDetail|251|6.0|8|false|12|2|6x1xEACH||C0000000903|VOLVIC ORIGINAL STRAWBERRY 750ML|1.9|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.0|6|93193
+HandheldProductDetail|17|122.34|5|false|0|0|6x1xEACH||C0000000904|JAMESON IRISH WHISKEY 70CL|30.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||20.39|6|92172
+HandheldProductDetail|0|27.27|0|false|0|0|9x1xEACH||C0000000909|QUAKER OATSO SIMPLE SYRUP 360G|4.45|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.03|9|5000108030553
+HandheldProductDetail|0|26.9|0|false|0|0|12x1xEACH||C0000000912|NESTLE SWEET CONDENSED MILK 397G|3.3|0|C000000312|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||||2.241666|12|94397
+HandheldProductDetail|186|24.64|39|false|0|0|21x1xEACH||C0000000917|CDM BLOCK 110G|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.173333|21|91157
+HandheldProductDetail|133|18.77|4|false|16|1|16x1xEACH||C0000000918|CDM WHOLENUT BLOCK 120G|2|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.173125|16|92232
+HandheldProductDetail|322|28.5|21|false|0|0|24x1xEACH||C0000000919|LIPTON ICE TEA LEMON 500ML|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.1875|24|93008
+HandheldProductDetail|632|0.01|0|false|0|0|1x1xEACH||C0000000921|UK CARRIER BAG CHARGE X1|0.1|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5701396000203
+HandheldProductDetail|0|19.3|0|false|0|0|1x1xEACH||C0000000923|BOOTS GIFT CARD £20|20|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.3|1|5060093677843
+HandheldProductDetail|0|40.05|0|false|0|0|16x1xEACH||C0000000927|ANCHOR SPREADABLE 250G|3.4|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.503125|16|5707361100039
+HandheldProductDetail|0|9.49|0|false|0|0|12x1xEACH||C0000000928|HART JELLY TAB STRAW135G|1.05|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.790833|12|5000354160899
+HandheldProductDetail|0|18.14|0|false|0|0|12x1xEACH||C0000000931|ECCLES CAKES 4S|2.1|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.511666|12|91554
+HandheldProductDetail|9|30.44|0|false|0|0|8x1xEACH||C0000000933|HAAGEN DAZS VANILLA 460ML|6|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||3.805|8|91750
+HandheldProductDetail|76|28.14|15|false|0|0|24x1xEACH||C0000000938|GALAXY CARAMEL 135G|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.1725|24|94303
+HandheldProductDetail|0|50.14|0|false|0|0|6x1xEACH||C0000000940|CAMPO VIEJO RIOJA RESERVA 75CL|12.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||8.356666|6|8410302107697
+HandheldProductDetail|0|1.13|0|false|0|0|1x1xEACH||C0000000943|HOVIS PANCAKES 6PK|1.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.13|1|5010003060913
+HandheldProductDetail|0|7.07|0|false|0|0|8x1xEACH||C0000000945|SOREEN MALT LOAF 190G|1.2|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||0.88375|8|94232
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000000948|EVERYDAY  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|93013
+HandheldProductDetail|0|24.85|0|false|0|0|10x1xEACH||C0000000950|NESQUIK CHOCOLATE 300G|3.45|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.485|10|7613031513062
+HandheldProductDetail|0|9.33|0|false|0|0|18x1xEACH||C0000000953|DR OETKER MILK CHOC CHIPS 100G|1.55|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.518333|18|50254101
+HandheldProductDetail|0|4.67|0|false|0|0|4x1xEACH||C0000000954|BAKING POWDER 170G|1.79|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.1675|4|5000254019051
+HandheldProductDetail|0|18.42|0|false|0|0|12x1xEACH||C0000000955|KING POT NOODLE ORIG CURRY 114G|2.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.535|12|91555
+HandheldProductDetail|0|14.78|0|false|0|0|6x1xEACH||C0000000956|BETTY CROCKER BROWNIE CHOC FUDGE 415G|3.3|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.463333|6|0016000718807
+HandheldProductDetail|0|4.15|0|false|0|0|4x1xEACH||C0000000959|BICARBONATE OF SODA 200G|1.79|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.0375|4|5000254019068
+HandheldProductDetail|0|5.29|0|false|0|0|12x1xEACH||C0000000960|HART JELLY RTE STRW 125G|0.85|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.440833|12|50126064
+HandheldProductDetail|0|9.01|9|false|0|0|18x1xEACH||C0000000962|N/V OATS & DARK CHOC 42G|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.500555|18|94143
+HandheldProductDetail|29|14.73|58|false|0|0|20x1xEACH||C0000000963|BELVITA HONEY NUT 50G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.7365|20|94288
+HandheldProductDetail|48|25.43|9|false|15|1|15x1xEACH||C0000000964|TUC CHEESE SANDWICH 150G|2|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.695333|15|92793
+HandheldProductDetail|0|12.65|0|false|0|0|6x1xEACH||C0000000966|REGINA BLITZ K/TOWEL X1|3.8|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.108333|6|8004260452816
+HandheldProductDetail|0|12.61|0|false|0|0|12x1xEACH||C0000000968|HERMESETAS 300PK|1.69|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.050833|12|7610211030203
+HandheldProductDetail|268|20.26|24|false|12|1|12x1xEACH||C0000000973|NUROFEN TABLETS 12S|3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.688333|12|89036
+HandheldProductDetail|83|9.01|30|false|0|0|18x1xEACH||C0000000974|N/V OATS & HONEY BAR 42G|1.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.500555|18|90325
+HandheldProductDetail|52|18.42|13|false|0|0|10x1xEACH||C0000000983|CADBURY WISPA BITES 110G|3.4|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.842|10|91151
+HandheldProductDetail|423|17.6|100|false|0|0|30x1xEACH||C0000000984|EXTRA WHITE BUBBLEMINT 10PK|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.586666|30|42247340
+HandheldProductDetail|172|14.73|26|false|0|0|24x1xEACH||C0000000987|YORKIE RAISIN AND BISC 44G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94144
+HandheldProductDetail|3224|9.77|191|false|72|3|24x1xEACH||C0000000990|BUXTON STILL 50CL|1.35|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.407083|24|92918
+HandheldProductDetail|0|23.02|0|false|0|0|1x1xEACH||C0000000992|CALOR REFILL 7 BUTANE|33.75|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||23.02|1|5027485021677
+HandheldProductDetail|0|40.29|0|false|0|0|1x1xEACH||C0000000993|CALOR REFILL 15 BUTANE|58.75|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||40.29|1|5027485001679
+HandheldProductDetail|0|20.67|0|false|0|0|1x1xEACH||C0000000995|CALOR REFILL 6 PROPANE|31.5|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||20.67|1|5027485021882
+HandheldProductDetail|0|31.92|0|false|0|0|1x1xEACH||C0000000996|CALOR REFILL 13 PROPANE|46.75|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||31.92|1|5027485101676
+HandheldProductDetail|0|19.71|0|false|0|0|1x1xEACH||C0000000997|CALOR REFILL 5 PATIO|29|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||19.71|1|5027485031072
+HandheldProductDetail|0|36.12|0|false|0|0|1x1xEACH||C0000000998|CALOR REFILL 13 PATIO|53.25|0|C000000014|HandheldSupplierID|C000000014|||||||||||||||||||||||||||||||36.12|1|5027485041675
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000000999|BUY TIME JET WASH X1|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20792343
+HandheldProductDetail|22|2.85|6|false|0|0|1x1xEACH||C0000001000|JELLY BELLY - VERY CHERRYX1|5|0|C000000027|HandheldSupplierID|C000000027|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||2.85|1|5010555153606
+HandheldProductDetail|2052|10.2|51|false|15|1|15x1xEACH||C0000001002|BUXTON MINERAL WATER S/CAP 75CL|1.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.68|15|92919
+HandheldProductDetail|0|9.5|0|false|0|0|1x1xEACH||C0000001003|SCRATCHCARD £10|10|0|C000000015|HandheldSupplierID|C000000015|||||||||||||||||||||||||||||||9.5|1|79439
+HandheldProductDetail|1470|5.06|22|false|24|4|6x1xEACH||C0000001007|BUXTON STILL 1.5LTR|1.95|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.843333|6|89052
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001009|VACUUM PROGRAMME CODAX 1|2|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045603166
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001010|VACUUM PROGRAMME CODAX 2|2|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045603173
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001011|VACUUM PROGRAMME CODAX 3|2|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045603180
+HandheldProductDetail|0|10.95|0|false|0|0|6x1xEACH||C0000001015|JUS ROL PUFF PASTRY 500G|2.45|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.825|6|5010084102816
+HandheldProductDetail|11|14.1|0|false|0|0|4x1xEACH||C0000001022|PEPSI MAX 6X330ML|5.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.525|4|92612
+HandheldProductDetail|0|24.01|0|false|0|0|6x1xEACH||C0000001025|LUCOZADE SPORT 4 PACK STILL ORANGE 500ML|6.9|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.001666|6|91665
+HandheldProductDetail|61|22.54|0|false|0|0|6x1xEACH||C0000001026|RED BULL SUGARFREE 4PK|6.05|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||3.756666|6|91668
+HandheldProductDetail|0|7.36|0|false|0|0|6x1xEACH||C0000001063|FRIDGE RAID CHICKEN TIKKA 60G|2|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.226666|6|5000178108671
+HandheldProductDetail|0|1.41|0|false|0|0|1x1xEACH||C0000001065|HOVIS WHOLEMEAL THICK 800G|1.9|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.41|1|5010003000353
+HandheldProductDetail|218|8.91|24|false|8|1|8x1xEACH||C0000001068|TROP MULTIVITAMINS 300ML|2.25|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.11375|8|92173
+HandheldProductDetail|0|7.36|0|false|0|0|6x1xEACH||C0000001069|FRIDGE RAID SOUTHERN FRIED60G|2|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.226666|6|93041
+HandheldProductDetail|0|1.35|0|false|0|0|1x1xEACH||C0000001070|GAZEBO CHK SAMOSA 100G X1|2.5|0|C000000123|HandheldSupplierID|C000000123|||||||||||||||||||||||||||||||1.35|1|5022235003071
+HandheldProductDetail|0|7.78|0|false|0|0|6x1xEACH||C0000001072|NOMADIC OAT CHOC LF YOG 169G|2.05|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.296666|6|5391115000821
+HandheldProductDetail|0|9.32|0|false|0|0|6x1xEACH||C0000001073|ONKEN BIOPOT CHERRY 450G|2.3|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.553333|6|7610900037346
+HandheldProductDetail|25|14.73|13|false|0|0|24x1xEACH||C0000001076|KIT KAT CHUNKY PEANUT BUTTER 42G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94145
+HandheldProductDetail|274|18.42|31|false|10|1|10x1xEACH||C0000001077|CADBURY BUTTONS GIANT 119G|3.4|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.842|10|89068
+HandheldProductDetail|108|18.42|14|false|0|0|10x1xEACH||C0000001078|CADBURY TWIRL BITES POUCH 109G|3.4|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.842|10|91150
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001079|HALF PRICE JET SUPER SHINE WASH X1|3|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|null
+HandheldProductDetail|0|27.71|0|false|0|0|12x1xEACH||C0000001081|MR KIPLING JAM TARTS 210G|3.1|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.309166|12|5000221002253
+HandheldProductDetail|86|21.21|27|false|0|0|40x1xEACH||C0000001082|MENTOS MINT 38G|1|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.53025|40|87108132
+HandheldProductDetail|117|17.59|69|false|0|0|30x1xEACH||C0000001083|EXTRA STRBERRY S/F GUM 10PK 14G|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.586333|30|42112907
+HandheldProductDetail|0|7.78|0|false|0|0|6x1xEACH||C0000001084|NOMADIC O/C STRW LF YOG 169G|2.05|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.296666|6|5391115000302
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001085|BUY TIME WASH 2 CYCLES 6 MINS|2|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20799298
+HandheldProductDetail|1|0.01|0|false|0|0|1x1xEACH||C0000001086|BUY TIME WASH 3 CYCLES 9 MINS|3|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20799304
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001087|BUY TIME WASH 4 CYCLES 12 MINS|4|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20799311
+HandheldProductDetail|0|51.14|0|false|0|0|6x1xEACH||C0000001088|OYSTER BAY SV/BLANC 75CL|12.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||8.523333|6|9415549802601
+HandheldProductDetail|82|7.2|0|false|0|0|1x1xEACH||C0000001091|X02 MENS SUNGLASSES X1|12.25|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||7.2|1|5036079064198
+HandheldProductDetail|0|4.29|0|false|0|0|1x1xEACH||C0000001100|DELIST FOOT PUMP SINGLE CYLINDER X1|7.35|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.29|1|5029594429641
+HandheldProductDetail|0|1.98|0|false|0|0|1x1xEACH||C0000001105|5M TAPE MEASURE X1|3.55|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||1.98|1|5029594505659
+HandheldProductDetail|0|3.9|0|false|0|0|1x1xEACH||C0000001107|DELIST STUBBY 12IN1 SCRWDRVR&BIT SET X1|6.75|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||3.9|1|5029594284028
+HandheldProductDetail|373|7.1|17|false|0|0|6x1xEACH||C0000001108|VOLVIC TOF L&LIME 1.5L|2.2|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.183333|6|93191
+HandheldProductDetail|99|11.9|0|false|0|0|6x1xEACH||C0000001111|WRIGLEY EXTRA ICE PEPPERMINT BOTTLE 46PK|3.65|0|C000000312|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||||1.983333|6|92314
+HandheldProductDetail|118|11.9|32|false|6|1|6x1xEACH||C0000001112|AIRWAVES MENTHOL BTL 46PK 64G|3.65|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.983333|6|92430
+HandheldProductDetail|167|11.9|24|false|6|1|6x1xEACH||C0000001113|EXTRA WHITE BTL 46PK 64G|3.65|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.983333|6|4009900477413
+HandheldProductDetail|0|6.31|0|false|0|0|8x1xEACH||C0000001130|DFE SWEDISH MEATBALLS PM100|1|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||0.78875|8|4250402400250
+HandheldProductDetail|0|19.64|0|false|0|0|6x1xEACH||C0000001136|GU LEMON CHEESECAKE 2PK|4.8|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||3.273333|6|5060023970969
+HandheldProductDetail|0|10.65|0|false|0|0|6x1xEACH||C0000001137|DELPHI VEG COUSCOUS 160G|2.7|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.775|6|5018811000121
+HandheldProductDetail|0|10.65|0|false|0|0|6x1xEACH||C0000001138|DELPHI THREE BEAN SALAD 220G|2.7|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.775|6|5018811000480
+HandheldProductDetail|354|10.06|36|false|24|1|24x1xEACH||C0000001140|BUXTON SPARKLING 500ML|1.35|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.419166|24|91764
+HandheldProductDetail|86|25.58|4|false|6|1|6x1xEACH||C0000001154|STRONGBOW ORIGINAL CIDER 4X440ML|6.8|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||4.263333|6|89062
+HandheldProductDetail|69|49.14|0|false|0|0|6x1xEACH||C0000001155|VILLA MARIA SAUVIGNON BLANC 12.5% 75CL|12.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||8.19|6|9414416503139
+HandheldProductDetail|155|17.0|0|false|0|0|12x1xEACH||C0000001157|GORDONS GIN&SLIMLINE TONIC 250ML|2.85|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.416666|12|93735
+HandheldProductDetail|1|34.12|0|false|0|0|6x1xEACH||C0000001158|YELLOW TAIL CHARDONNAY75CL|9.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|9322214006205
+HandheldProductDetail|36|38.63|0|false|0|0|6x1xEACH||C0000001160|BAREFOOT MERLOT 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.438333|6|91598
+HandheldProductDetail|123|14.73|28|false|0|0|24x1xEACH||C0000001161|MALTEASER BAR 35G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94146
+HandheldProductDetail|0|34.12|0|false|0|0|6x1xEACH||C0000001162|YELLOW TAIL PINOT GRIGIO 75CL|9.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|9322214009961
+HandheldProductDetail|16|34.12|0|false|0|0|6x1xEACH||C0000001163|YELLOW TAIL SHIRAZ 75CL|8.9|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|9322214006229
+HandheldProductDetail|91|14.21|-2|false|0|0|8x1xEACH||C0000001164|Kopparberg Mixed Fruit Cider 500ml|3.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||0.947333|15|93513
+HandheldProductDetail|219|14.49|28|false|12|1|12x1xEACH||C0000001166|PANADOL ADVANCE TABS 16PK|2.15|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.2075|12|5054563125491
+HandheldProductDetail|0|18.58|0|false|0|0|6x1xEACH||C0000001167|QUAKERVARIETYPORRIDGESACHETS297G9PK|4.15|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.096666|6|5000108030638
+HandheldProductDetail|0|13.17|0|false|0|0|30x1xEACH||C0000001168|CADBURY HIGHLIGHT STICK PACK 11GRM|0.65|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.439|30|96033197
+HandheldProductDetail|9|10.53|0|false|0|0|6x1xEACH||C0000001170|DEEP HEAT RUB 35G|3.15|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.755|6|5011501040018
+HandheldProductDetail|0|21.25|4|false|0|0|6x1xEACH||C0000001171|BEECHAM ALL IN ONE CLD&FLU 160ML|6.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.541666|6|5000347061837
+HandheldProductDetail|0|18.42|0|false|0|0|12x1xEACH||C0000001182|KING POT NOODLE BEEF&TOMATO 114G|2.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.535|12|91558
+HandheldProductDetail|78|9.01|32|false|0|0|18x1xEACH||C0000001183|NATURE VALLEY MAPLE SYRUP  42G|1.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.500555|18|90326
+HandheldProductDetail|81|20.52|10|false|0|0|6x1xEACH||C0000001186|PIRITEZE ALLERGY TABS 7S|6|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||3.42|6|89037
+HandheldProductDetail|211|13.06|66|false|0|0|36x1xEACH||C0000001191|KINDER SNACK BAR 21G|0.7|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.362777|36|94304
+HandheldProductDetail|1|4.78|0|false|0|0|1x1xEACH||C0000001192|MOSHI MONSTERS £4.95|4.95|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||4.78|1|5060093676228
+HandheldProductDetail|81|10.97|5|false|6|1|6x1xEACH||C0000001193|DIET COKE 1.75LTR|3.5|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.828333|6|89050
+HandheldProductDetail|378|8.87|10|false|24|2|12x1xEACH||C0000001200|SAN PELLEGRINO 500ML|1.45|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.739166|12|91765
+HandheldProductDetail|272|16.02|25|false|0|0|24x1xEACH||C0000001201|YORKIE BISCUIT RAISIN DUO 66G LTD|1.5|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.6675|24|92803
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001212|CR OFFER FACEBOOK 2|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|49293
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001213|CR OFFER FACEBOOK 3|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|51459
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001214|CR OFFER FACEBOOK 4|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|29028
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001215|CR OFFER FACEBOOK 5|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|52255
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001216|CR OFFER FACEBOOK 6|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|58509
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001218|EV CHARGE FREE BAKED CONFEC X1|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|55702
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001219|CR OFFER FACEBOOK 9|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|32232
+HandheldProductDetail|139|17.08|11|false|0|0|8x1xEACH||C0000001221|SAN MIGUEL 660ML NRB|3.85|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.135|8|92813
+HandheldProductDetail|320|28.5|14|false|12|2|6x1xEACH||C0000001222|CORONA 330ML 4 PACK|7.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.75|6|89055
+HandheldProductDetail|0|3.45|0|false|0|0|1x1xEACH||C0000001225|LAMP WITH HOOK 24 LED X1|6|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||3.45|1|5029594607025
+HandheldProductDetail|445|6.85|56|false|24|4|6x1xEACH||C0000001228|GINSTERS LARGE SAUSAGE ROLL 130G|1.7|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||1.141666|6|93002
+HandheldProductDetail|0|7.55|0|false|0|0|4x1xEACH||C0000001229|CHICKEN TIKKA NAANSTER 185G|2.7|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.8875|4|93830
+HandheldProductDetail|82|20.51|18|false|0|0|16x1xEACH||C0000001233|OREO COOKIES VANILLA154G|1.95|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.281875|16|89078
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001235|PERFECT SHINE CAR WASH X1|8|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20808860
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001236|PERFECT SHINE CAR WASH (CODAX) X1|8|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|20808907
+HandheldProductDetail|0|3.23|0|false|0|0|1x1xEACH||C0000001243|RIDE X1 £4.30|4.3|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.23|1|9771360350166
+HandheldProductDetail|0|3.38|0|false|0|0|1x1xEACH||C0000001244|PRACTICAL CLASSICS X1 £4.50|4.5|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.38|1|9770957697233
+HandheldProductDetail|0|3.74|0|false|0|0|1x1xEACH||C0000001245|PERFORMANCE VW X1 £4.99|4.99|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.74|1|9771364250585
+HandheldProductDetail|0|3.74|0|false|0|0|1x1xEACH||C0000001246|PERFORMANCE BMW X1 £4.99|4.99|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.74|1|9771462311126
+HandheldProductDetail|0|3.23|0|false|0|0|1x1xEACH||C0000001253|CLASSIC BIKE X1 £4.30|4.3|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.23|1|9770142890234
+HandheldProductDetail|0|1.19|0|false|0|0|1x1xEACH||C0000001261|NATIONAL ENQUIRER X1 £1.59|1.59|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||1.19|1|9771056348958
+HandheldProductDetail|0|1.39|0|false|0|0|1x1xEACH||C0000001264|HEAT X1 £1.85|1.85|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||1.39|1|9771465626074
+HandheldProductDetail|0|1.88|0|false|0|0|1x1xEACH||C0000001265|GRAZIA X1 £2.50|2.5|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||1.88|1|9771745956075
+HandheldProductDetail|2|1.35|0|false|0|0|1x1xEACH||C0000001268|CLOSER X1 £1.80|1.8|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||1.35|1|9771478078082
+HandheldProductDetail|0|0.75|0|false|0|0|1x1xEACH||C0000001271|BELLA X1 £1.10|1.1|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.75|1|9770953098270
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001273|PAYZONE X1|0.01|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||0.01|1|20810955
+HandheldProductDetail|0|1.92|0|false|0|0|1x1xEACH||C0000001278|INSULATED GLOVES THERMAL X1|3.45|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||1.92|1|5060429750431
+HandheldProductDetail|0|1.98|0|false|0|0|1x1xEACH||C0000001279|INSULATED HAT THERMAL X1|3.55|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||1.98|1|5060429750448
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001288|ECW QUICK SGL WASH X1|3.5|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045601414
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001289|ECW SHINE SGL WASH X1|5|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045601421
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001290|ECW CARWASH X1|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|5060045601438
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001291|ECW MONTH QUICK SUB X1|6|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|81126
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001292|ECW MONTH SHINE SUB X 1|9|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|81127
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001293|ECW MONTH SSHINE SUB X1|14|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|81128
+HandheldProductDetail|0|8.57|4|false|0|0|1x1xEACH||C0000001294|CPL BRAZIER 10KG|14.45|0|C000000019|HandheldSupplierID|C000000019|||||||||||||||||||||||||||||||8.57|1|5017974002034
+HandheldProductDetail|97|21.11|15|false|0|0|18x1xEACH||C0000001296|CDM DAIM 120G|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.172777|18|92236
+HandheldProductDetail|110|19.94|27|false|0|0|17x1xEACH||C0000001297|CDM OREO BLOCK 120G|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.172941|17|91158
+HandheldProductDetail|12|22.15|0|false|0|0|12x1xEACH||C0000001299|ANADIN EXTRA 16PK|3.2|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.184583|120|5000309007668
+HandheldProductDetail|0|0.92|0|false|0|0|1x1xEACH||C0000001300|VALENTINE´S DAY  SINGLE CARD  CODE W X1|2.15|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||0.92|1|5026309550195
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000001301|VALENTINE´S DAY  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|5026309550973
+HandheldProductDetail|0|1.42|0|false|0|0|1x1xEACH||C0000001302|VALENTINE´S DAY  SINGLE CARD  CODE H X1|3.15|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.42|1|5026309550225
+HandheldProductDetail|0|1.79|0|false|0|0|1x1xEACH||C0000001303|VALENTINE´S DAY  SINGLE CARD  CODE B X1|3.99|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.79|1|5026309550232
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000001304|MOTHER´S DAY  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|5026309550997
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000001305|FATHER´S DAY  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|5026309551024
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000001306|CHRISTMAS  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|94768
+HandheldProductDetail|0|0.73|0|false|0|0|1x1xEACH||C0000001307|CHRISTMAS BOXES&WRAP GIFT TA CODE XT X1|1.39|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||0.73|1|94769
+HandheldProductDetail|0|1.15|0|false|0|0|1x1xEACH||C0000001308|CHRISTMAS BOXES&WRAP MULTI-P CODE XF X1|2.19|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.15|1|94770
+HandheldProductDetail|0|1.4|0|false|0|0|1x1xEACH||C0000001309|CHRISTMAS BOXES&WRAP ROLL-WR CODE XR X1|3.19|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.4|1|94771
+HandheldProductDetail|0|1.9|0|false|0|0|1x1xEACH||C0000001311|LOTTO X1|2|0|C000000015|HandheldSupplierID|C000000015|||||||||||||||||||||||||||||||1.9|1|81179
+HandheldProductDetail|0|5.7|0|false|0|0|1x1xEACH||C0000001312|38PC STUBBY SCREWDRIVER SET X1|9.75|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||5.7|1|5029594284196
+HandheldProductDetail|79|24.45|11|false|0|0|6x1xEACH||C0000001319|MONSTER EN 500ML 4PK|7.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.075|6|92484
+HandheldProductDetail|164|22.33|10|false|12|1|12x1xEACH||C0000001333|GORDONS GIN & TONIC 250ML|2.55|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.860833|12|93514
+HandheldProductDetail|0|22.55|30|false|0|0|48x1xEACH||C0000001334|CADBURY CRÈME EGG 40G|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.469791|48|91617
+HandheldProductDetail|0|22.55|30|true|0|0|48x1xEACH||C0000001335|CDM CARAMEL EGG 40G|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.469791|48|91611
+HandheldProductDetail|84|7.19|38|false|0|0|12x1xEACH||C0000001344|EAT NATURAL CASHEW & BLUEB 45G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.599166|12|96019955
+HandheldProductDetail|94|19.44|35|false|0|0|24x1xEACH||C0000001345|LINDOR TREATBAR 38G|1.5|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.81|24|94305
+HandheldProductDetail|118|19.65|34|false|0|0|32x1xEACH||C0000001346|POLO SUGAR FREE 33.4G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.614062|32|50251797
+HandheldProductDetail|520|14.37|77|false|24|1|24x1xEACH||C0000001348|WALKERS MAX PAPRIKA 50G|1.3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.59875|24|93770
+HandheldProductDetail|169|11.9|24|false|12|2|6x1xEACH||C0000001349|EXTRA BUBBLEMINT BTL 46PK 64G|3.65|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.983333|6|92429
+HandheldProductDetail|105|27.64|0|false|0|0|6x1xEACH||C0000001350|THATCHERS GOLD CIDER 4X500ML - 4.8%|7.1|0|C000000312|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||||4.606666|6|92434
+HandheldProductDetail|0|10.66|0|false|0|0|6x1xEACH||C0000001352|THATCHERS KATY SINGLE CIDER 500ML|2.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.776666|6|94261
+HandheldProductDetail|33|21.31|7|false|0|0|12x1xEACH||C0000001353|OLD MOUT KIWI & LIME NRB - 4% 500ML|3.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.775833|12|91777
+HandheldProductDetail|0|26.66|10|false|0|0|12x1xEACH||C0000001355|OLD MOUT BERRIES & CHERRIES NRB - 4% 500|3.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.221666|12|91776
+HandheldProductDetail|0|9.66|0|false|0|0|6x1xEACH||C0000001357|DORITOS HOT SALSA DIP 300G|3.35|0|C000000312|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||||1.61|6|92634
+HandheldProductDetail|0|9.66|0|false|0|0|6x1xEACH||C0000001358|DORITOS MILD SALSA DIP 300G|3.35|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.61|6|92635
+HandheldProductDetail|7|18.92|7|false|0|0|6x1xEACH||C0000001359|SHELL PREM CAR SHAMP 500ML|5.5|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||3.153333|6|7041068134071
+HandheldProductDetail|66|23.45|0|false|0|0|24x1xEACH||C0000001360|DBS MINT HUMBUGS 160G|1.79|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||0.977083|24|20908577
+HandheldProductDetail|41|23.45|-1|false|0|0|24x1xEACH||C0000001361|DBS JELLY BEANS 170G|1.79|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||0.977083|24|20908560
+HandheldProductDetail|46|23.45|0|false|0|0|24x1xEACH||C0000001362|DBS WINE GUMS 180G|1.79|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||0.977083|24|20908553
+HandheldProductDetail|0|19.19|0|false|0|0|1x1xEACH||C0000001363|FOOTBALL MANAGER £19.99|19.99|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.19|1|0799366189886
+HandheldProductDetail|0|14.48|0|false|0|0|1x1xEACH||C0000001364|BOOTS £15|15|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||14.48|1|0799366154433
+HandheldProductDetail|0|9.6|0|false|0|0|1x1xEACH||C0000001367|GOOGLE PLAY £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.6|1|5060296861575
+HandheldProductDetail|0|24.0|0|false|0|0|1x1xEACH||C0000001368|GOOGLE PLAY £25|25|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||24.0|1|5060296861599
+HandheldProductDetail|157|37.66|0|false|0|0|8x1xEACH||C0000001380|DESPERADOS 300ML 3PK NRB|7.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.7075|8|89063
+HandheldProductDetail|91|11.73|20|false|0|0|12x1xEACH||C0000001383|SMINT PEPPERMINT TIN 35G|1.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9775|12|8410031945737
+HandheldProductDetail|58|11.73|18|false|0|0|12x1xEACH||C0000001384|SMINT TIN SPEARMINT 42G|1.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9775|12|8410031945744
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001386|FREE HF SANDWICH GIVEAWAY|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|50017
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001387|CR OFFER MOB APP 3|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|52215
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001388|CR OFFER MOB APP 4|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|29454
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001389|CR OFFER MOB APP 5|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|53023
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001392|CR OFFER MOB APP 8|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|56520
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001393|CR OFFER MOB APP 9|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|32705
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001394|CR OFFER MOB APP 10|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|43268
+HandheldProductDetail|179|21.21|43|false|0|0|24x1xEACH||C0000001395|RED BULL ZERO CALORIES 250ML|2|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.88375|24|92152
+HandheldProductDetail|36|166.27|17|false|0|0|12x1xEACH||C0000001396|HELIX ULTRA 5W40 1L|27.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||13.855833|12|92518
+HandheldProductDetail|4|77.93|4|false|0|0|3x1xEACH||C0000001397|HELIX HX7 10W40 5L|51.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||25.976666|3|5011987860902
+HandheldProductDetail|26|9.88|8|false|8|1|8x1xEACH||C0000001399|WBIX OTG DRINK STRAWBERRY 250ML|1.89|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.235|8|93051
+HandheldProductDetail|43|10.72|6|false|8|1|8x1xEACH||C0000001400|WEETABIX OTG DRINK CHOCOLATE 250ML|2.05|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.34|8|93047
+HandheldProductDetail|34|9.92|19|false|0|0|8x1xEACH||C0000001401|WEETABIX OTG DRINK VANILLA 250ML|1.89|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.24|8|93046
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001408|VODAFONE PAYG STANDARD SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5055015245095
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001409|ORANGE PAYG COMBI SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5027141626710
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001411|O2 GOGOGO COMBI SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262029472
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001413|THREE PAYG STANDARD SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5050553351895
+HandheldProductDetail|0|13.81|0|false|0|0|8x1xEACH||C0000001414|KIPLING APPLE PIES 6PK|2.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.72625|8|5000221002338
+HandheldProductDetail|0|5.25|17|false|0|0|8x1xEACH||C0000001417|ORGANIX CARROT STICKS 20G|1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.65625|8|5024121885303
+HandheldProductDetail|0|13.27|0|false|0|0|6x1xEACH||C0000001423|JOHN WEST MED TUNA 220G|2.95|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000313|HandheldSupplierID|C000000312|||||||||||||||||||||||||||2.211666|6|5000171050656
+HandheldProductDetail|16|35.84|5|false|0|0|10x1xEACH||C0000001424|SUDAFED NASAL SPRAY 15ML|6.3|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.584|10|3574660534887
+HandheldProductDetail|0|8.1|0|false|0|0|12x1xEACH||C0000001426|HART JELLY RTE RASP 125G|1.05|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.675|12|50126033
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001431|O2 BIG BUNDLE COMBI SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262035046
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001432|O2 BIG BUNDLE NANO SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262035077
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001433|EE 4G £1 7 DAY COMBI SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744096091
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001434|EE 4G NFC £10 30 DAY COMBI SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744096114
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001435|LYCAMOBILE PAYG COMBI SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5060172541324
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001436|THREE PAYG NANO SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5050553373088
+HandheldProductDetail|36|25.62|0|false|0|0|12x1xEACH||C0000001440|DELIST 202401 BECKS 4.8% 660ML|2.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.135|12|92810
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001443|CR OFFER MOB APP 11|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|29975
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001444|CR OFFER MOB APP 12|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|95775
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001445|CR OFFER MOB APP 13|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|76310
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001446|CR OFFER MOB APP 14|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|42993
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001447|CR OFFER MOB APP 15|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|97826
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001448|CR OFFER MOB APP 16|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|54423
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001449|CR OFFER MOB APP 17|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|86473
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001450|CR OFFER MOB APP 18|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|63554
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001451|CR OFFER MOB APP 19|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|97894
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001452|CR OFFER MOB APP 20|0.01|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||0.01|1|75422
+HandheldProductDetail|32|9.7|0|false|0|0|1x1xEACH||C0000001453|THREE MOBILE E VOUCHER £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.7|1|5050553800393
+HandheldProductDetail|2|14.55|0|false|0|0|1x1xEACH||C0000001454|THREE MOBILE E VOUCHER £15|15|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||14.55|1|5050553800409
+HandheldProductDetail|0|19.4|0|false|0|0|1x1xEACH||C0000001455|THREE MOBILE E VOUCHER £20|20|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.4|1|5050553800416
+HandheldProductDetail|0|24.25|0|false|0|0|1x1xEACH||C0000001456|THREE MOBILE E VOUCHER £25|25|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||24.25|1|5050553800423
+HandheldProductDetail|1|29.1|0|false|0|0|1x1xEACH||C0000001457|THREE MOBILE E VOUCHER £30|30|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||29.1|1|5050553800430
+HandheldProductDetail|0|38.8|0|false|0|0|1x1xEACH||C0000001458|THREE MOBILE E VOUCHER £40|40|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||38.8|1|5050553800447
+HandheldProductDetail|0|48.5|0|false|0|0|1x1xEACH||C0000001459|THREE MOBILE E VOUCHER £50|50|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||48.5|1|5050553800454
+HandheldProductDetail|7|4.85|0|false|0|0|1x1xEACH||C0000001460|LEBARA MOBILE E VOUCHER £5|5|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||4.85|1|5060157644200
+HandheldProductDetail|6|9.7|0|false|0|0|1x1xEACH||C0000001461|LEBARA MOBILE E VOUCHER £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.7|1|5060157644217
+HandheldProductDetail|0|14.55|0|false|0|0|1x1xEACH||C0000001462|LEBARA MOBILE E VOUCHER £15|15|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||14.55|1|5060157644224
+HandheldProductDetail|1|19.4|0|false|0|0|1x1xEACH||C0000001463|LEBARA MOBILE E VOUCHER £20|20|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.4|1|5060157644231
+HandheldProductDetail|0|24.25|0|false|0|0|1x1xEACH||C0000001464|LEBARA MOBILE E VOUCHER £25|25|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||24.25|1|5060157644248
+HandheldProductDetail|4|29.1|0|false|0|0|1x1xEACH||C0000001465|LEBARA MOBILE E VOUCHER £30|30|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||29.1|1|5060157644255
+HandheldProductDetail|0|38.8|0|false|0|0|1x1xEACH||C0000001466|LEBARA MOBILE E VOUCHER £40|40|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||38.8|1|5060157644262
+HandheldProductDetail|0|48.5|0|false|0|0|1x1xEACH||C0000001467|LEBARA MOBILE E VOUCHER £50|50|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||48.5|1|5060157644279
+HandheldProductDetail|218|25.62|17|false|0|0|12x1xEACH||C0000001469|HEINEKEN 650ML|3.7|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.135|12|89059
+HandheldProductDetail|78|14.21|19|false|0|0|8x1xEACH||C0000001470|Kopparberg Strbry&Lime Cider 500ml|3.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||0.947333|15|93516
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001472|I HEART PINOT GRIGIO 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|89088
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001473|I HEART CHARDONNAY -11% 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|92751
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001474|I HEART MERLOT -11% 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|89086
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001475|I HEART SHIRAZ 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|92756
+HandheldProductDetail|0|34.12|0|false|0|0|6x1xEACH||C0000001478|CASILLERO DEL DIABLO PINOT G 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|92758
+HandheldProductDetail|0|46.64|0|false|0|0|6x1xEACH||C0000001479|BRANCOTT ESTATE SAUV BLANC 75CL|11.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||7.773333|6|9414024514275
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001490|EE PAYG £1 TRIO SIM 873|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744136292
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001491|EE PAYG £10 TRIO SIM 874|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744135677
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001492|EE PAYG £15 TRIO SIM 875|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744133758
+HandheldProductDetail|112|35.47|30|false|0|0|6x1xEACH||C0000001499|SHELL ADBLUE 1.5L|12|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.911666|6|7041068134309
+HandheldProductDetail|0|0.62|0|false|0|0|1x1xEACH||C0000001500|SPECIAL SEND  SINGLE CARD  CODE M X1|1.45|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||0.62|1|94772
+HandheldProductDetail|0|1.16|0|false|0|0|1x1xEACH||C0000001502|SPECIAL SEND  SINGLE CARD  CODE D X1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.16|1|94773
+HandheldProductDetail|0|1.29|0|false|0|0|1x1xEACH||C0000001503|EASTER ANCILLARY PRODUCT MULTI-CODE DX1|2.65|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||1.29|1|5026309551093
+HandheldProductDetail|2|14.19|0|false|0|0|33x1xEACH||C0000001505|DELIST202312 CDM CHOC MOUSSE SNOWMAN 30G|0.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.43|33|92268
+HandheldProductDetail|0|34.12|0|false|0|0|6x1xEACH||C0000001507|CASILLERO DIABLO SAUV BL 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||5.686666|6|93711
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001508|I HEART ROSE 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|91560
+HandheldProductDetail|370|12.72|0|false|0|0|24x1xEACH||C0000001510|COCA COLA ZERO CAN 330ML|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.53|24|93182
+HandheldProductDetail|528|5.95|25|false|6|1|6x1xEACH||C0000001511|SAN PELLEGRINO SPARKLING 1L|1.95|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.991666|6|91766
+HandheldProductDetail|0|22.5|0|false|0|0|6x1xEACH||C0000001513|UPP CARTRIDGE REPLACEMENT|5.95|0|C000000037|HandheldSupplierID|C000000037|||||||||||||||||||||||||||||||3.75|6|5060379910015
+HandheldProductDetail|78|14.73|32|false|0|0|24x1xEACH||C0000001518|TOFFEE CRISP 38G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94306
+HandheldProductDetail|6|32.38|5|false|0|0|6x1xEACH||C0000001519|SHELL BRAKE & CLUTCH FLUID 500ML|9.25|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||5.396666|6|7041068134262
+HandheldProductDetail|22|16.23|0|false|0|0|6x1xEACH||C0000001522|SHELL GLASS WIPES X1|4.75|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||2.705|6|7041068138789
+HandheldProductDetail|19|14.39|0|false|0|0|6x1xEACH||C0000001523|SHELL COCKPIT WIPES X1|4.25|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||2.398333|6|7041068138772
+HandheldProductDetail|131|11.2|14|false|0|0|12x1xEACH||C0000001534|RED BULL TROPICAL 250ML|2.05|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.933333|12|92149
+HandheldProductDetail|609|28.5|36|false|0|0|24x1xEACH||C0000001536|LIPTON ICE TEA PEACH 500ML|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.1875|24|93009
+HandheldProductDetail|226|15.79|25|false|12|2|6x1xEACH||C0000001537|COKE DIET 4PK|4.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.631666|6|92472
+HandheldProductDetail|340|15.79|15|false|12|2|6x1xEACH||C0000001538|COKE REGULAR  330ML 4PK|4.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.631666|6|92467
+HandheldProductDetail|407|14.3|26|false|12|1|12x1xEACH||C0000001539|MONSTER EN RESEAL 553ML|2.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.191666|12|92766
+HandheldProductDetail|963|17.8|42|false|0|0|24x1xEACH||C0000001542|EVIAN MINERAL WATER PET 50CL|1.35|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.741666|24|93192
+HandheldProductDetail|73|26.95|28|false|0|0|23x1xEACH||C0000001543|MALTESERS TEASERS 100G|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.171739|23|91159
+HandheldProductDetail|0|5.7|0|false|0|0|1x1xEACH||C0000001552|DELIST ROLSON 24PC RATCHET & BIT SET X1|9.8|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||5.7|1|5029594284455
+HandheldProductDetail|0|3.75|0|false|0|0|1x1xEACH||C0000001555|DELIST HI VISIBILITY SAFETY VEST-LRGEX1|6.5|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||3.75|1|5029594433020
+HandheldProductDetail|209|12.06|28|false|12|1|12x1xEACH||C0000001568|NUTELLA & GO 48G|1.55|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.005|12|94284
+HandheldProductDetail|241|21.1|23|false|0|0|30x1xEACH||C0000001569|KINDER BUENO WHITE 39G|1.35|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.703333|30|92802
+HandheldProductDetail|118|14.73|46|false|0|0|24x1xEACH||C0000001571|YORKIE MILK 46G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94307
+HandheldProductDetail|1|15.64|7|false|0|0|2x1xEACH||C0000001575|STRONGBOW CAN 10PK 440ML|12.6|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||7.82|2|91675
+HandheldProductDetail|130|7.19|11|false|0|0|12x1xEACH||C0000001576|EAT NATURAL PROTEIN  PACKED 45G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.599166|12|96103890
+HandheldProductDetail|312|7.1|26|false|0|0|6x1xEACH||C0000001578|VOLVIC TOF SUMMER FRU 1.5LTR|2.2|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.183333|6|93065
+HandheldProductDetail|48|11.69|21|false|0|0|12x1xEACH||C0000001579|MCVITIES DIGEST CHOC|1.4|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.974166|12|5000168194394
+HandheldProductDetail|745|65.44|117|false|0|0|40x1xEACH||C0000001583|CLIPPER SILVERTOP LIGHTER 1PK|2.2|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.636|40|92441
+HandheldProductDetail|109|15.02|23|false|0|0|24x1xEACH||C0000001586|SAN PELL LIMONATA 330ML|1.55|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.625833|24|93068
+HandheldProductDetail|0|17.48|0|false|0|0|6x1xEACH||C0000001587|LUCOZADE ENERGY ORANGE 4X380ML|5.3|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.913333|6|91661
+HandheldProductDetail|2|0.01|0|false|0|0|1x1xEACH||C0000001591|LYCAMOBILE PAYG TRIO SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5060172545155
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001593|O2 £15 BIG BUNDLE COMBI SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262035053
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001594|O2 INTERNATIONAL NANO SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262036531
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001595|O2 £10 BIG BUNDLE TRIPLE SIM|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5038262044192
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001597|THREE PAYG TRIO SIM X1 196|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5050553351963
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001601|VODAFONE PAYG INTERNATIONAL SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5055015233696
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001602|VODAFONE PAYG STANDARD TABLET SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5055015245156
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001603|VODAFONE PAYG  TABLET IPAD MICROSIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5055015245170
+HandheldProductDetail|1|0.01|0|false|0|0|1x1xEACH||C0000001606|LEBARA SIM 99P|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5060157641193
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001607|EE PAYG £10 TRIO SIM 737|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744209026
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001608|EE PAYG £15 TRIO SIM 738|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744209040
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001609|VIRGIN TRIO PAYG SIM X1|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5060306022316
+HandheldProductDetail|0|14.9|0|false|0|0|6x1xEACH||C0000001610|TROP TROPICAL 850ML|4.25|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.483333|6|5022313319438
+HandheldProductDetail|491|11.65|33|false|12|1|12x1xEACH||C0000001612|JUICY WATER ORANGE&LEMON 420ML|2|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.970833|12|5051469160403
+HandheldProductDetail|210|12.02|10|false|0|0|12x1xEACH||C0000001613|BUBBLES LEMLME&APP 330ML|2.1|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.001666|12|5038862333313
+HandheldProductDetail|515|11.65|28|false|12|1|12x1xEACH||C0000001615|JUICY WATER RASP & BCURRNT 420ML|2|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.970833|12|5051469170402
+HandheldProductDetail|0|29.46|0|false|0|0|10x1xEACH||C0000001624|HNZ SALAD CRM T/D 425G|3.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.946|10|94400
+HandheldProductDetail|3|4.85|0|false|0|0|1x1xEACH||C0000001625|EE £5|5|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||4.85|1|5025743888161
+HandheldProductDetail|7|9.7|0|false|0|0|1x1xEACH||C0000001626|EE £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.7|1|5025743888222
+HandheldProductDetail|3|14.55|0|false|0|0|1x1xEACH||C0000001627|EE £15|15|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||14.55|1|5025743888239
+HandheldProductDetail|0|19.4|0|false|0|0|1x1xEACH||C0000001628|EE £20|20|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.4|1|5025743888253
+HandheldProductDetail|0|24.25|0|false|0|0|1x1xEACH||C0000001629|EE £25|25|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||24.25|1|5025743888246
+HandheldProductDetail|0|29.1|0|false|0|0|1x1xEACH||C0000001630|EE £30|30|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||29.1|1|5025743888260
+HandheldProductDetail|0|33.95|0|false|0|0|1x1xEACH||C0000001631|EE £35|35|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||33.95|1|5025743888277
+HandheldProductDetail|0|38.8|0|false|0|0|1x1xEACH||C0000001632|EE £40|40|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||38.8|1|5025743888284
+HandheldProductDetail|0|43.65|0|false|0|0|1x1xEACH||C0000001633|EE £45|45|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||43.65|1|5025743888291
+HandheldProductDetail|0|48.5|0|false|0|0|1x1xEACH||C0000001634|EE £50|50|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||48.5|1|5025743888307
+HandheldProductDetail|34|9.74|0|false|0|0|10x1xEACH||C0000001635|HUGGIES PURE BABY WIPES 56PK|1.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.974|10|93023
+HandheldProductDetail|0|20.42|0|false|0|0|12x1xEACH||C0000001637|CAD RASP JAM MINI ROLL 5S|2.4|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.701666|12|94235
+HandheldProductDetail|196|20.76|23|false|0|0|12x1xEACH||C0000001638|WLKRS SENS THAI SWT CHILI 150G|3.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.73|12|91166
+HandheldProductDetail|0|14.95|0|false|0|0|6x1xEACH||C0000001639|BETTY CROCKER CHOC FUDGE ICING 400G|3.35|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.491666|6|5010084902621
+HandheldProductDetail|0|12.08|8|false|0|0|12x1xEACH||C0000001641|ANADIN ORIGINAL 12PK|1.85|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.006666|12|5000309007743
+HandheldProductDetail|84|4.65|13|false|0|0|1x1xEACH||C0000001642|NRG IPHONE 5/6 SYNC CABLE X1|8|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.65|1|92443
+HandheldProductDetail|2|5.85|0|false|0|0|1x1xEACH||C0000001643|NRG IPHONE IN CAR CHARGER X1|9.8|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||5.85|1|92444
+HandheldProductDetail|36|6.75|6|false|0|0|1x1xEACH||C0000001644|NRG USB 12 V POWER X1|11.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||6.75|1|92445
+HandheldProductDetail|19|4.35|4|false|0|0|1x1xEACH||C0000001645|NRG UNIVERSAL MOUNT X1|7.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.35|1|92446
+HandheldProductDetail|56|5.85|5|false|0|0|1x1xEACH||C0000001646|NRG DUAL USB CHARGER X1|10|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||5.85|1|92447
+HandheldProductDetail|0|12.42|0|false|0|0|6x1xEACH||C0000001647|COPELLA APPLE JUICE 900ML|3.49|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.07|6|5012876388064
+HandheldProductDetail|24|9.15|11|false|0|0|1x1xEACH||C0000001648|PREMIUM KILN DRIED LOGS 18L|15.5|0|C000000019|HandheldSupplierID|C000000019|||||||||||||||||||||||||||||||9.15|1|5017974003208
+HandheldProductDetail|10|16.71|5|false|0|0|6x1xEACH||C0000001652|NUROFEN FOR CHIL SYRINGE 100ML|4.85|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.785|6|5000158100589
+HandheldProductDetail|0|25.15|0|false|0|0|6x1xEACH||C0000001660|CADBURY MILK TRAY 360G|7|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.191666|6|93074
+HandheldProductDetail|13|172.44|18|false|0|0|12x1xEACH||C0000001661|HELIX ULTRA ECT C3 5W30 1L|28.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||14.37|12|92519
+HandheldProductDetail|125|12.25|12|false|0|0|24x1xEACH||C0000001662|AERO P/MINT BUBBLY 36G|1.15|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.510416|24|94147
+HandheldProductDetail|0|9.9|2|false|0|0|1x1xEACH||C0000001663|CORONA EXTRA NRB 10x330ML|15.05|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||9.9|1|7511
+HandheldProductDetail|0|41.9|0|false|0|0|12x1xEACH||C0000001674|STRPSLS TRIP AC B/C24S|6.05|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.491666|12|5000158106185
+HandheldProductDetail|258|9.0|18|false|0|0|10x1xEACH||C0000001676|YAZOO STRAWB 400ML|1.39|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9|10|91741
+HandheldProductDetail|238|9.0|0|false|10|1|10x1xEACH||C0000001677|YAZOO BANANA 400ML|1.39|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9|10|91743
+HandheldProductDetail|281|9.0|16|false|10|1|10x1xEACH||C0000001678|YAZOO CHOC 400ML|1.39|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9|10|91742
+HandheldProductDetail|591|11.9|52|false|24|2|12x1xEACH||C0000001679|MONSTER ULTRA 500ML|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.991666|12|89048
+HandheldProductDetail|7|29.49|0|false|0|0|24x1xEACH||C0000001681|TIC TAC MIX CHRY&COKE 49G|2.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.22875|24|8000500216231
+HandheldProductDetail|19|14.21|7|false|0|0|8x1xEACH||C0000001691|SHARP'S DOOM BAR 500ML|3.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.77625|8|5060031050240
+HandheldProductDetail|152|14.21|11|false|0|0|8x1xEACH||C0000001693|WESTONS VINTAGE CIDER 500ML|3.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.77625|8|92435
+HandheldProductDetail|0|47.13|0|false|0|0|6x1xEACH||C0000001694|FREIXENET NEGRO BRUT 75CL|12|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||7.855|6|91563
+HandheldProductDetail|0|25.62|0|false|0|0|6x1xEACH||C0000001695|I HEART SAUVIGNON BLANC 75CL|8.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.27|6|91564
+HandheldProductDetail|94|9.23|7|false|0|0|6x1xEACH||C0000001699|YAZOO BANANA MILK 1LTR|2.1|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.538333|6|94527
+HandheldProductDetail|101|9.23|8|false|6|1|6x1xEACH||C0000001700|YAZOO CHOC 1LTR|2.1|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.538333|6|94528
+HandheldProductDetail|113|8.26|11|false|0|0|6x1xEACH||C0000001701|YAZOO STRAWB 1LTR|2.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.376666|6|5410438036819
+HandheldProductDetail|30|14.12|13|false|0|0|12x1xEACH||C0000001702|APT LIQ FIRST INF MILK 200ML|1.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.176666|12|8716900559129
+HandheldProductDetail|318|20.09|43|false|0|0|30x1xEACH||C0000001703|MONSTER MUNCH FLAMIN 40G|1.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.669666|30|94052
+HandheldProductDetail|344|20.09|32|false|0|0|30x1xEACH||C0000001704|MONSTER MUNCH P/ONION 40G|1.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.669666|30|94053
+HandheldProductDetail|273|20.09|57|false|0|0|30x1xEACH||C0000001705|MONSTER MUNCH RST BF 40G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.669666|30|94148
+HandheldProductDetail|609|20.09|47|false|0|0|30x1xEACH||C0000001706|QUAVERS CHEESE MAXI 34G|1.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.669666|30|93768
+HandheldProductDetail|338|21.44|43|false|32|1|32x1xEACH||C0000001707|WLKRS SQUARES SALT&VINEGAR 40G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.67|32|93772
+HandheldProductDetail|353|20.11|33|false|30|1|30x1xEACH||C0000001708|WOTSITS BIG EAT CHEESE 36G|1.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.670333|30|94054
+HandheldProductDetail|0|2.28|8|false|0|0|1x1xEACH||C0000001719|CALIFORNIA SCENTS - CAR SCENTS X1|4.05|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||2.28|1|7638900851212
+HandheldProductDetail|0|17.0|0|false|0|0|12x1xEACH||C0000001723|DELIST 202402 MALIBU & COLA 250MLS|2|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.416666|12|5012461002566
+HandheldProductDetail|0|19.22|10|false|0|0|12x1xEACH||C0000001726|SMIRNOFF & COLA 250ML|2.85|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.601666|12|93518
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000001727|EE PAYG INTERNATIONAL TRIO SIM X1 882|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744248704
+HandheldProductDetail|0|0.92|0|false|0|0|1x1xEACH||C0000001735|EASTER  SINGLE CARD  CODE W X1|2.15|0|C000000017|HandheldSupplierID|C000000017|||||||||||||||||||||||||||||||0.92|1|5026309550164
+HandheldProductDetail|727|11.19|70|false|12|1|12x1xEACH||C0000001736|CHERRY COKE ZERO 500ML|2.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.9325|12|91505
+HandheldProductDetail|46|8.3|20|false|0|0|8x1xEACH||C0000001742|OATSO SIMPLE EX POTS SYRUP 57G|1.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.0375|8|93118
+HandheldProductDetail|0|18.42|0|false|0|0|12x1xEACH||C0000001744|POTNOODLE KING BOMBAY BADBOY 114G|2.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.535|12|94774
+HandheldProductDetail|222|27.21|15|false|0|0|25x1xEACH||C0000001749|SOLERO EXOTIC 90ML|2|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.0884|25|92791
+HandheldProductDetail|253|32.22|55|false|0|0|35x1xEACH||C0000001750|BIG FEAST 90ML|1.7|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.920571|35|91622
+HandheldProductDetail|0|25.13|0|false|0|0|20x1xEACH||C0000001751|MAGNUM ALMOND 100ML|2.3|0|C000000313|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||||1.2565|20|91625
+HandheldProductDetail|324|27.37|11|false|0|0|20x1xEACH||C0000001752|MAGNUM CLASSIC 110ML|2.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.3685|20|91626
+HandheldProductDetail|0|27.37|0|false|0|0|20x1xEACH||C0000001753|DELIST MAGNUM MINT 100ML|2.5|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.3685|20|91629
+HandheldProductDetail|312|27.37|15|false|0|0|20x1xEACH||C0000001754|MAGNUM WHITE 110ML|2.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.3685|20|91630
+HandheldProductDetail|0|14.51|0|false|0|0|1x1xEACH||C0000001756|AMAZON UK 15.00 GBP|15|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||14.51|1|4260318062695
+HandheldProductDetail|0|24.19|0|false|0|0|1x1xEACH||C0000001757|AMAZON UK 25.00 GBP|25|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||24.19|1|4260318060455
+HandheldProductDetail|0|9.65|0|false|0|0|1x1xEACH||C0000001758|DEBENHAMS £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.65|1|5060296407933
+HandheldProductDetail|0|9.65|0|false|0|0|1x1xEACH||C0000001762|NEW LOOK £10|10|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||9.65|1|5060296407919
+HandheldProductDetail|0|19.3|0|false|0|0|1x1xEACH||C0000001763|SONY PLAYSTATION TOP UP £20|20|0|C000000020|HandheldSupplierID|C000000020|||||||||||||||||||||||||||||||19.3|1|4260318069670
+HandheldProductDetail|12|3.75|18|false|0|0|1x1xEACH||C0000001766|NRG MICRO USB CHARGING SYNC CABLE X1|6.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||3.75|1|94115
+HandheldProductDetail|7|2.85|12|false|0|0|1x1xEACH||C0000001767|NRG 3.5MM AUX TO AUX CABLE X1|4.8|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||2.85|1|94116
+HandheldProductDetail|0|10.95|0|false|0|0|1x1xEACH||C0000001768|NRG BLUETOOTH SPEAKER X1|18.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||10.95|1|94117
+HandheldProductDetail|2|10.95|1|false|0|0|1x1xEACH||C0000001769|NRG POWER PORTABLE USB CHARGER X1|18.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||10.95|1|94118
+HandheldProductDetail|0|10.95|11|false|0|0|1x1xEACH||C0000001770|NRG 4 WAY USB CHARGER UK EU PLUGS X1|18.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||10.95|1|94119
+HandheldProductDetail|1|3.15|23|false|0|0|1x1xEACH||C0000001771|NRG 9 LED ALUMINIUM TORCH X1|5.5|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||3.15|1|5060429750202
+HandheldProductDetail|0|4.35|0|false|0|0|1x1xEACH||C0000001772|NRG 28 LED ALUMINIUM TORCH X1|7.5|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.35|1|5060429750226
+HandheldProductDetail|0|4.95|0|false|0|0|1x1xEACH||C0000001774|NRG 7 IN 1 MINI MULTI TOOL WITH LED X1|8.5|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.95|1|5060429750301
+HandheldProductDetail|1715|8.21|46|false|24|3|8x1xEACH||C0000001778|EVIAN 1.5LTR|2.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.02625|8|90625
+HandheldProductDetail|81|14.63|0|false|0|0|8x1xEACH||C0000001780|FRUBES VARIETY PACK 9PK|2.75|0|C000000024|HandheldSupplierID|C000000024|||||||||||||||||||||||||||||||1.82875|8|94586
+HandheldProductDetail|222|20.73|63|false|0|0|48x1xEACH||C0000001781|WHOLENUT 45G|1.1|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.431875|48|93694
+HandheldProductDetail|256|20.73|24|false|48|1|48x1xEACH||C0000001782|WISPA 36G|1.09|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.431875|48|93695
+HandheldProductDetail|154|20.73|28|false|48|1|48x1xEACH||C0000001783|WISPA GOLD 48G|1.09|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.431875|48|93696
+HandheldProductDetail|0|10.14|0|false|0|0|6x1xEACH||C0000001784|ELLAS CHICK CASS STGE 2 130GRM|2.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.69|6|93542
+HandheldProductDetail|38|8.21|0|false|0|0|7x1xEACH||C0000001785|ELLAS STRWB&APL STGE 1 120|1.85|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.172857|7|93543
+HandheldProductDetail|0|16.48|2|false|0|0|2x1xEACH||C0000001791|CARLSBERG EXPORT 440ML 10PK|14.1|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||8.24|2|5010153812523
+HandheldProductDetail|8|34.12|0|false|0|0|6x1xEACH||C0000001809|CASILLERO DEL DIABLO CHARDONNAY 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|91565
+HandheldProductDetail|0|34.12|0|false|0|0|6x1xEACH||C0000001810|YELLOW TAIL MERLOT - 13.5% 75CL|9.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||5.686666|6|93729
+HandheldProductDetail|0|38.43|0|false|0|0|6x1xEACH||C0000001824|I HEART PROSECCO 75CL|11.5|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.405|6|92755
+HandheldProductDetail|0|37.62|0|false|0|0|6x1xEACH||C0000001830|MUD HOUSE SAUVIGNON BLAN 75CL|10.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.27|6|92224
+HandheldProductDetail|0|38.48|0|false|0|0|6x1xEACH||C0000001837|TRIVENTO RESERVE MALBEC 75CL|9.55|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||6.413333|6|93702
+HandheldProductDetail|0|28.08|0|false|0|0|6x1xEACH||C0000001844|ISLA NEGRA S/H SUAVIGNON BLANC 75CL|7.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||4.68|6|91566
+HandheldProductDetail|0|30.75|0|false|0|0|6x1xEACH||C0000001845|Isla Negra Seashore Rose 75cl|7.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||5.125|6|7804320689371
+HandheldProductDetail|0|20.52|0|false|0|0|9x1xEACH||C0000001871|MR KIPLING FRENCH FANCIES 223G|3|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||2.28|9|94236
+HandheldProductDetail|0|18.18|0|false|0|0|8x1xEACH||C0000001875|BMAMAN CHOC MADELEINE 7PK|3|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||2.597142|7|94237
+HandheldProductDetail|0|18.11|0|false|0|0|8x1xEACH||C0000001876|BMAMAN MADELEINE 7PK 175G|3.15|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||2.26375|8|94238
+HandheldProductDetail|158|1.5|25|false|6|6|1x1xEACH||C0000001889|NY BAKERY PLN SLCED BAGL 5S|2.3|0|C000000024|HandheldSupplierID|C000000024|||||||||||||||||||||||||||||||1.5|1|91855
+HandheldProductDetail|0|2.02|0|false|0|0|1x1xEACH||C0000001898|DELIFRANCE CROISSANTS 4PK|2.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.02|1|3291811187111
+HandheldProductDetail|2|9.24|0|false|0|0|6x1xEACH||C0000001900|JUS ROL PUFF PASTRY SHEETS 320G|2.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.54|6|5010084103677
+HandheldProductDetail|0|10.87|0|false|0|0|3x1xEACH||C0000001901|ACTIMEL STRAWBERRY 100G|4.8|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||3.623333|3|93528
+HandheldProductDetail|0|9.3|0|false|0|0|6x1xEACH||C0000001903|ALPRO SOYA LIGHT 1L|2.35|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.55|6|91903
+HandheldProductDetail|0|9.3|0|false|0|0|6x1xEACH||C0000001904|ALPRO ALMOND DRINK ORIGINAL 1L|2.35|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.55|6|91900
+HandheldProductDetail|76|9.3|4|false|0|0|6x1xEACH||C0000001906|ALPRO SOYA ALT TO MILK 1L|2.35|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||1.55|6|91902
+HandheldProductDetail|0|9.36|0|false|0|0|6x1xEACH||C0000001908|LACTOFREE S/SKIMMED MILK 1LTR|2.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.56|6|5000181028133
+HandheldProductDetail|0|26.55|0|false|0|0|12x1xEACH||C0000001912|ANCHOR SWIRLS CREAM 250G|2.95|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.2125|12|50427109
+HandheldProductDetail|0|11.21|0|false|0|0|6x1xEACH||C0000001913|DELAMERE WHOLE GOATS MILK 1L|2.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.868333|6|5016860100106
+HandheldProductDetail|0|11.21|0|false|0|0|6x1xEACH||C0000001914|DELAMERE SEMI GOATS MILK 1L|2.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.868333|6|5016860100205
+HandheldProductDetail|0|8.03|0|false|0|0|10x1xEACH||C0000001917|FRESHWAYS WHOLE MILK 568ML|1.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.803|10|93776
+HandheldProductDetail|0|10.59|0|false|0|0|10x1xEACH||C0000001918|FRESHWAYS WHOLE MILK  1LTR|1.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.059|10|93774
+HandheldProductDetail|0|6.0|0|false|0|0|4x1xEACH||C0000001919|FRESHWAYS WHOLE MILK 2LTR|2.1|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.5|4|92401
+HandheldProductDetail|0|8.03|0|false|0|0|10x1xEACH||C0000001920|FRESHWAYS SEMI SKIM 568MLS|1.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.803|10|93775
+HandheldProductDetail|0|10.59|0|false|0|0|10x1xEACH||C0000001921|FRESHWAYS SEMI SKIMMED MILK 1LTR|1.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.059|10|93773
+HandheldProductDetail|0|6.0|0|false|24|6|4x1xEACH||C0000001922|FRESHWAYS SEMI SKIMMED MILK 2LTR|2.1|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.5|4|89044
+HandheldProductDetail|0|8.03|0|false|0|0|10x1xEACH||C0000001925|FRESHWAYS SKIMMED MILK 568MLS|1.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.803|10|5099839348396
+HandheldProductDetail|0|21.73|0|false|0|0|8x1xEACH||C0000001928|BOURSIN GARLIC & HERB 150G|3.6|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.71625|8|3175460000017
+HandheldProductDetail|43|15.9|16|false|0|0|6x1xEACH||C0000001929|LE RUSTIQUE CAMEMBERT 250G|3.7|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||2.65|6|91905
+HandheldProductDetail|0|17.56|0|false|0|0|7x1xEACH||C0000001930|ST AGUR WEDGES 125G|3.4|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.508571|7|3341500006008
+HandheldProductDetail|0|26.9|22|false|0|0|12x1xEACH||C0000001931|PRESIDENT BRIE 200G|3.45|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||2.241666|12|3228020232028
+HandheldProductDetail|122|9.29|24|false|0|0|6x1xEACH||C0000001932|GALBANI MOZZARELLA 125G|2.3|0|C000000010|HandheldSupplierID|C000000010|HandheldSupplierID|C000000024|||||||||||||||||||||||||||||1.548333|6|91895
+HandheldProductDetail|0|41.01|0|false|0|0|10x1xEACH||C0000001949|CATHEDRAL CITY EX MAT CHEDDAR 350G|5.4|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||4.101|10|5000295141599
+HandheldProductDetail|0|9.41|0|false|0|0|6x1xEACH||C0000001956|ONKEN MNGO&PPAYA BIOPOT 450G|2.3|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.568333|6|7610900037360
+HandheldProductDetail|51|12.99|0|false|0|0|8x1xEACH||C0000001957|NESTLE AERO CHOC MOUSSE|2.45|0|C000000024|HandheldSupplierID|C000000024|||||||||||||||||||||||||||||||1.62375|8|93842
+HandheldProductDetail|0|10.2|0|false|0|0|6x1xEACH||C0000001958|YEO VALLEY ORG YOG RASPBERRY 450G|2.5|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.7|6|5036589200178
+HandheldProductDetail|73|10.84|29|false|0|0|6x1xEACH||C0000001961|YEO VALLEY ORG YOG STRAWBERRY 450G|2.5|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||1.806666|6|5014067153833
+HandheldProductDetail|118|11.05|13|false|0|0|6x1xEACH||C0000001965|YEO VALLEY GREEK ST YOG 450G|2.7|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||1.841666|6|94584
+HandheldProductDetail|0|17.33|0|false|0|0|6x1xEACH||C0000001966|TOTAL 0% FAT GRK YOG 500G|3.85|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.888333|6|5201054921746
+HandheldProductDetail|42|2.82|19|false|2|2|1x1xEACH||C0000001968|TOTAL GREEK YOGURT 450G|4.05|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||2.82|1|95066
+HandheldProductDetail|0|8.35|0|false|0|0|8x1xEACH||C0000001973|PEPPA PIG FROM FRAIS 6X45G|1.4|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.04375|8|3329770043633
+HandheldProductDetail|2|27.36|11|false|0|0|24x1xEACH||C0000001977|BIRDS EYE GARDEN PEAS 375G|1.7|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.14|24|93534
+HandheldProductDetail|36|20.32|24|false|0|0|18x1xEACH||C0000001984|MCV RICH TEA BISCUITS 300G|2.5|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.128888|18|94220
+HandheldProductDetail|1|24.6|0|false|0|0|10x1xEACH||C0000001991|QUAKER OATS 1KG|3.2|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.46|10|94775
+HandheldProductDetail|0|15.86|0|false|0|0|12x1xEACH||C0000002004|MRS CRIMBLES MCRN 6PK 1PCE|1.84|0|C000000313|HandheldSupplierID|C000000313|||||||||||||||||||||||||||||||1.321666|12|94240
+HandheldProductDetail|11|19.9|5|false|0|0|6x1xEACH||C0000002012|MARMITE 250G|4.35|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||3.316666|6|92800
+HandheldProductDetail|306|21.44|10|false|0|0|32x1xEACH||C0000002014|WLKRS SENS THAI SWT CHILI 40G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.67|32|94056
+HandheldProductDetail|61|9.2|0|false|0|0|6x1xEACH||C0000002032|SCHWEPPS SLIMLINE LEMONADE 2LTR|2.6|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.533333|6|93064
+HandheldProductDetail|0|17.08|0|false|0|0|6x1xEACH||C0000002038|MR MUSCLE SINK & PLUGHOLE 500ML|4.95|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.846666|6|5000204891690
+HandheldProductDetail|0|6.38|11|false|0|0|6x1xEACH||C0000002047|SURE APA INVISIBLE ICE 150ML|1.9|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.063333|6|96080979
+HandheldProductDetail|0|19.02|10|false|0|0|6x1xEACH||C0000002048|LEMSIP MAX STRENGTH 10PCE|5.6|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.17|6|5000158063938
+HandheldProductDetail|0|18.15|0|false|0|0|6x1xEACH||C0000002051|LISTERINE COOLMINT MWASH 500ML|4.39|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||3.025|6|5010123703585
+HandheldProductDetail|0|7.64|0|false|0|0|20x1xEACH||C0000002057|FF LOOSE LIMES CL1 1PCE|0.55|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.382|20|94136
+HandheldProductDetail|0|8.35|0|false|0|0|4x1xEACH||C0000002069|DEL MONTE MLN&GRPE 320G|3.05|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.0875|4|5060061215206
+HandheldProductDetail|0|14.47|0|false|0|0|8x1xEACH||C0000002075|JACKS CAULIFLOWER 1PCE|2.39|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.80875|8|5059697995200
+HandheldProductDetail|0|13.67|0|false|0|0|6x1xEACH||C0000002076|JACKS LEEKS 400G|2.89|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.278333|6|5059697995156
+HandheldProductDetail|0|7.27|0|false|0|0|8x1xEACH||C0000002077|JACKS PARSNIPS 500G|1.29|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||0.90875|8|5059697995859
+HandheldProductDetail|0|11.38|0|false|0|0|10x1xEACH||C0000002080|JACKS BROCCOLI 350G|1.59|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.138|10|5059697995170
+HandheldProductDetail|0|10.65|0|false|0|0|6x1xEACH||C0000002082|DELPHI CHCK PEA SALAD 220G|2.7|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.775|6|5018811000008
+HandheldProductDetail|0|25.14|0|false|0|0|6x1xEACH||C0000002089|HIGGIDY BACON&CHEESE QCH 400G|5.95|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||4.19|6|92617
+HandheldProductDetail|41|23.39|30|false|0|0|6x1xEACH||C0000002090|HIGGIDY SPIN FETA/PEP QUICHE|5.9|0|C000000024|HandheldSupplierID|C000000024|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||3.898333|6|91927
+HandheldProductDetail|0|1.35|0|false|0|0|1x1xEACH||C0000002091|GAZEBO VEG SAMOSA 100G X1|2.5|0|C000000123|HandheldSupplierID|C000000123|||||||||||||||||||||||||||||||1.35|1|5022235003057
+HandheldProductDetail|0|1.15|0|false|0|0|1x1xEACH||C0000002101|PORK FARMS PORK PIE 2PK|2.09|0|C000000123|HandheldSupplierID|C000000123|||||||||||||||||||||||||||||||1.15|1|94174
+HandheldProductDetail|0|28.99|10|false|0|0|4x1xEACH||C0000002113|CHARLIE BIGHAM'S CHKN TIKKA 805G|10.95|0|C000000024|HandheldSupplierID|C000000024|||||||||||||||||||||||||||||||7.2475|4|5033665209773
+HandheldProductDetail|0|12.65|0|false|0|0|6x1xEACH||C0000002120|HERTA FRANKFURTERS 350G|2.99|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||2.108333|6|91731
+HandheldProductDetail|105|13.56|28|false|0|0|9x1xEACH||C0000002129|ROWNTREES RANDOM POUCH 150G|2.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.506666|9|91772
+HandheldProductDetail|15|9.15|0|false|0|0|1x1xEACH||C0000002132|NRG UNIVERSAL POWER ADAPTOR X1|15.3|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||9.15|1|94120
+HandheldProductDetail|2|19.84|2|false|0|0|6x1xEACH||C0000002135|SHELL COCKPIT SPRAY 300ML|5.75|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||3.306666|6|7041068134149
+HandheldProductDetail|0|24.29|5|false|0|0|6x1xEACH||C0000002136|SHELL ALL INTERIOR CLNR 500ML|7|0|C000000038|HandheldSupplierID|C000000038|||||||||||||||||||||||||||||||4.048333|6|7041068134132
+HandheldProductDetail|29|16.31|6|false|0|0|8x1xEACH||C0000002137|TIC TAC FRTADV T200 96.6G|3.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.03875|8|8000500228272
+HandheldProductDetail|46|16.31|11|false|0|0|8x1xEACH||C0000002141|TIC TAC F/MNT T200 96.6G|3.75|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.03875|8|92806
+HandheldProductDetail|87|12.57|9|false|0|0|10x1xEACH||C0000002144|JELLY TOTS POUCH 150G|2.75|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||1.257|10|91768
+HandheldProductDetail|0|15.73|0|false|0|0|10x1xEACH||C0000002145|ELASTOPLAST WATERPROOF FAB 18PK|2.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.573|10|4005800044427
+HandheldProductDetail|176|14.73|44|false|0|0|24x1xEACH||C0000002146|KIT KAT 4 FINGER 41.5G|1.15|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.61375|24|94149
+HandheldProductDetail|0|4.95|0|false|0|0|1x1xEACH||C0000002239|26PC MINI TRI FOLD TOOL KIT X1|8.5|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.95|1|5060429750288
+HandheldProductDetail|0|12.52|9|false|6|1|6x1xEACH||C0000002246|H&S SHAMPOO CLSC CLN 250ML X6|3.35|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.086666|6|5410076229994
+HandheldProductDetail|185|10.86|24|false|0|0|12x1xEACH||C0000002267|RELENTLESS 500ML|1.95|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||0.905|12|92662
+HandheldProductDetail|0|8.63|0|false|0|0|6x1xEACH||C0000002278|RODDAS CLOTTED CREAM 113G|2.15|0|C000000010|HandheldSupplierID|C000000010|||||||||||||||||||||||||||||||1.438333|6|50849864
+HandheldProductDetail|168|11.9|0|false|0|0|12x1xEACH||C0000002279|MONSTER PUNCH 500ML|2.2|0|C000000312|HandheldSupplierID|C000000312|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||0.991666|12|92488
+HandheldProductDetail|0|10.39|0|false|0|0|6x1xEACH||C0000002282|SWEETEX TABLETS 600S 1PCE|2.55|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||1.731666|6|94778
+HandheldProductDetail|0|17.84|0|false|0|0|12x1xEACH||C0000002300|CAMPO VIEJO RIOJA TEMPRANILLO 187ML|3.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.486666|12|91604
+HandheldProductDetail|0|12.01|0|false|0|0|12x1xEACH||C0000002305|PRINCES MANDARINS JCE 298G|1.6|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||1.000833|12|5000232821010
+HandheldProductDetail|0|24.15|0|false|0|0|12x1xEACH||C0000002309|CAS DEL DBLO SAV 187ML|3.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.0125|12|7804320423081
+HandheldProductDetail|0|24.15|0|false|0|0|12x1xEACH||C0000002318|CASILLERO DEL DIABLO SAUVIGNON BLANC 18.|3.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.0125|12|7804320457956
+HandheldProductDetail|58|8.71|17|false|0|0|12x1xEACH||C0000002320|PRINGLE 40GS/C|1.3|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.725833|12|5053990107384
+HandheldProductDetail|108|8.71|12|false|0|0|12x1xEACH||C0000002321|PRINGLE40G ORG|1.3|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.725833|12|5410076067657
+HandheldProductDetail|313|16.07|59|false|0|0|24x1xEACH||C0000002322|POPCHIPS BARBEQUE 23G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.669583|24|90332
+HandheldProductDetail|295|16.07|24|false|0|0|24x1xEACH||C0000002323|POPCHIPS S/CRM ONION 23G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.669583|24|94047
+HandheldProductDetail|313|16.07|48|false|0|0|24x1xEACH||C0000002324|POPCHIPS SEA SALT 23G|1.25|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.669583|24|90333
+HandheldProductDetail|0|152.0|0|false|0|0|80x1xEACH||C0000002370|£250,000 BLUE|2|0|C000000015|HandheldSupplierID|C000000015|||||||||||||||||||||||||||||||1.9|80|5031390110456
+HandheldProductDetail|0|15.08|0|false|0|0|6x1xEACH||C0000002380|COPPENR & V STRW CHSECKE 485G|3.7|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||2.513333|6|4008577088151
+HandheldProductDetail|136|25.62|5|false|12|1|12x1xEACH||C0000002388|BIRRA MORETTI 660ML NRB|2.9|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||2.135|12|92811
+HandheldProductDetail|0|0.01|0|false|0|0|1x1xEACH||C0000002392|EE PAYG 4G £15 MULTI SIM + DATA|0.99|0|C000000021|HandheldSupplierID|C000000021|||||||||||||||||||||||||||||||0.01|1|5025744313686
+HandheldProductDetail|270|23.44|41|false|0|0|40x1xEACH||C0000002402|FRUIT-TELLA SUMMER FRUITS 41G|1.1|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||0.586|40|94320
+HandheldProductDetail|3|4.65|9|false|0|0|1x1xEACH||C0000002403|NRG TRAVEL EARPHONES X1|7.8|0|C000000027|HandheldSupplierID|C000000027|||||||||||||||||||||||||||||||4.65|1|94121
+HandheldProductDetail|0|36.96|0|false|0|0|6x1xEACH||C0000002407|SECRETARY BIRD ROSE 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||6.16|6|3430560004533
+HandheldProductDetail|0|38.57|0|false|0|0|6x1xEACH||C0000002408|SECRETARY BIRD SAUVIGNON BLANC 75CL|9.75|0|C000000009|HandheldSupplierID|C000000009|||||||||||||||||||||||||||||||6.428333|6|91570
+HandheldProductDetail|33|126.3|7|false|0|0|10x1xEACH||C0000002421|EU ROYALS KS RED 20S|16.8|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||12.63|10|96184424
+HandheldProductDetail|89|106.9|10|false|0|0|10x1xEACH||C0000002422|EU ROTHMANS KS BLUE 20S|14.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||10.69|10|96184356
+HandheldProductDetail|80|108.42|11|false|0|0|10x1xEACH||C0000002423|EU ROTHMANS SK BLUE 20S|14.45|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||10.842|10|96184394
+HandheldProductDetail|59|106.9|5|false|0|0|10x1xEACH||C0000002424|EU ROTHMANS SILVER KS 20S|14.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||10.69|10|96184370
+HandheldProductDetail|0|109.86|0|false|0|0|8x1xEACH||C0000002425|EU ROYALS RED KS 23S|18.25|0|C000000009|HandheldSupplierID|C000000009|HandheldSupplierID|C000000312|||||||||||||||||||||||||||||13.7325|8|96184431

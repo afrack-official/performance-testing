@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="TestPlan_Shell_FPOS_HHT_OrbisWeb_v0.1" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="UK_FPOS_Env - CLI" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_UK_CurrentTime" elementType="Argument">
+            <stringProp name="Argument.value">${__time(yyyyMMddHHmmss)}</stringProp>
+            <stringProp name="Argument.name">TG_UK_CurrentTime</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Users" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Users</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Users,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_RampUpTime" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_RampUpTime</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_RampUpTime,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Iterations</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Iterations,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Trx_Sftp_Upload_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Trx_Sftp_Upload_Iterations</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Number if TRX files generating</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Trx_Sftp_Upload_Iterations,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Sftp_Hostname,)}</stringProp>
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Sftp_Username,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Sftp_Key,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Sftp_Port,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Conn_TimeOut,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Trx_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Trx_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_Trx_Sftp_TDelay,)}</stringProp>
+            <stringProp name="Argument.desc">1 minute  (milliseconds)  60000</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_ShiftFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_ShiftFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_ShiftFile_Sftp_TDelay,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_DayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_DayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_DayFile_Sftp_TDelay,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_AccDayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_AccDayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.value">${__P(TG_UK_FPOS_AccDayFile_Sftp_TDelay,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="FPOS_UKTestData" elementType="Argument">
+            <stringProp name="Argument.name">FPOS_UKTestData</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(FPOS_UKTestData,)}</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="UK_TD_FPOS_SitesTills" enabled="true">
+        <stringProp name="delimiter">,</stringProp>
+        <stringProp name="fileEncoding"></stringProp>
+        <stringProp name="filename">${FPOS_UKTestData}/UK_FPOS_TRX_SitesTills.csv</stringProp>
+        <boolProp name="ignoreFirstLine">true</boolProp>
+        <boolProp name="quotedData">false</boolProp>
+        <boolProp name="recycle">true</boolProp>
+        <stringProp name="shareMode">shareMode.all</stringProp>
+        <boolProp name="stopThread">false</boolProp>
+        <stringProp name="variableNames">StoreID,T1TillID,T2TillID,T1OptrID,T2OptrID,T1POS,T2POS,DayRepNr,ShiftRepNr_TillNo_1,ShiftRepNr_TillNo_2</stringProp>
+      </CSVDataSet>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="UK_FPOS_Env - GUI" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_UK_CurrentTime" elementType="Argument">
+            <stringProp name="Argument.value">${__time(yyyyMMddHHmmss)}</stringProp>
+            <stringProp name="Argument.name">TG_UK_CurrentTime</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Users" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Users</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_RampUpTime" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_RampUpTime</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Trx_Sftp_Upload_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Trx_Sftp_Upload_Iterations</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Number if TRX files generating</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.value">prl-d7-sftp.test.pos.pditechnologies.com</stringProp>
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">uk_sites_prl</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">../../TestData/Keys/prl-d7-sftp-user-privatekey.pem</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">22</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_Trx_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_Trx_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_ShiftFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_ShiftFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_DayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_DayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+          </elementProp>
+          <elementProp name="TG_UK_FPOS_AccDayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_UK_FPOS_AccDayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="FPOS_UKTestData" elementType="Argument">
+            <stringProp name="Argument.value">../../TestData/TestData_Prod/UK</stringProp>
+            <stringProp name="Argument.name">FPOS_UKTestData</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="NL_TD_FPOS_SitesTills" enabled="false">
+        <stringProp name="delimiter">,</stringProp>
+        <stringProp name="fileEncoding"></stringProp>
+        <stringProp name="filename">${FPOS_NLTestData}/NL_FPOS_TRX_SitesTills.csv</stringProp>
+        <boolProp name="ignoreFirstLine">true</boolProp>
+        <boolProp name="quotedData">false</boolProp>
+        <boolProp name="recycle">true</boolProp>
+        <stringProp name="shareMode">shareMode.all</stringProp>
+        <boolProp name="stopThread">false</boolProp>
+        <stringProp name="variableNames">StoreID,T1TillID,T2TillID,T1OptrID,T2OptrID,T1POS,T2POS</stringProp>
+      </CSVDataSet>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="NL_FPOS_Env - CLI" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_NL_CurrentTime" elementType="Argument">
+            <stringProp name="Argument.value">${__time(yyyyMMddHHmmss)}</stringProp>
+            <stringProp name="Argument.name">TG_NL_CurrentTime</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Users" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Users</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Users,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_RampUpTime" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_RampUpTime</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_RampUpTime,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Iterations</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Iterations,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Trx_Sftp_Upload_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Trx_Sftp_Upload_Iterations</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Number if TRX files generating</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Trx_Sftp_Upload_Iterations,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Sftp_Hostname,)}</stringProp>
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Sftp_Username,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Sftp_Key,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Sftp_Port,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Conn_TimeOut,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Trx_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Trx_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_Trx_Sftp_TDelay,)}</stringProp>
+            <stringProp name="Argument.desc">1 minute  (milliseconds)  60000</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_ShiftFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_ShiftFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_ShiftFile_Sftp_TDelay,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_DayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_DayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_DayFile_Sftp_TDelay,)}</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_AccDayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_AccDayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.value">${__P(TG_NL_FPOS_AccDayFile_Sftp_TDelay,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="FPOS_NLTestData" elementType="Argument">
+            <stringProp name="Argument.name">FPOS_NLTestData</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">${__P(FPOS_NLTestData,)}</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="NL_FPOS_Env - GUI" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_NL_CurrentTime" elementType="Argument">
+            <stringProp name="Argument.value">${__time(yyyyMMddHHmmss)}</stringProp>
+            <stringProp name="Argument.name">TG_NL_CurrentTime</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Users" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Users</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_RampUpTime" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_RampUpTime</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Iterations</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Trx_Sftp_Upload_Iterations" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Trx_Sftp_Upload_Iterations</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Number if TRX files generating</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.value">prl-d7-sftp.test.pos.pditechnologies.com</stringProp>
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">uk_sites_prl</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">../../TestData/Keys/prl-d7-sftp-user-privatekey.pem</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">22</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_Trx_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_Trx_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">6000</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_ShiftFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_ShiftFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_DayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_DayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">4000</stringProp>
+          </elementProp>
+          <elementProp name="TG_NL_FPOS_AccDayFile_Sftp_TDelay" elementType="Argument">
+            <stringProp name="Argument.name">TG_NL_FPOS_AccDayFile_Sftp_TDelay</stringProp>
+            <stringProp name="Argument.value">4000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="FPOS_NLTestData" elementType="Argument">
+            <stringProp name="Argument.value">../../TestData/TestData_Prod/NL</stringProp>
+            <stringProp name="Argument.name">FPOS_NLTestData</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UK_TG_FPOS" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">${TG_UK_FPOS_Iterations}</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">${TG_UK_FPOS_Users}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${TG_UK_FPOS_RampUpTime}</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="UserDefinedVaribales_POSTotals" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="sumT1" elementType="Argument">
+              <stringProp name="Argument.name">sumT1</stringProp>
+              <stringProp name="Argument.value">0.0</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="sumT2" elementType="Argument">
+              <stringProp name="Argument.name">sumT2</stringProp>
+              <stringProp name="Argument.value">0.0</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_TRX_BuildParamaters" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+import java.util.Random;
+
+// AccDayNum - Start
+String sequenceVar = &quot;AccDayNum&quot;;
+String lastDateVar = &quot;lastDate&quot;;
+String iterationVar = &quot;iterationCount&quot;;
+String TG_UK_FPOS_DaySeq = vars.get(&quot;DayRepNr&quot;);
+
+// Convert TG_UK_FPOS_DaySeq to an integer
+int TG_UK_FPOS_DaySeqInt = Integer.parseInt(TG_UK_FPOS_DaySeq);
+
+// Check if the iteration count variable exists, initialize it to 0 if not
+int iterationCount = Integer.parseInt(vars.get(iterationVar) != null ? vars.get(iterationVar) : &quot;0&quot;);
+
+// Increment the iteration count
+iterationCount++;
+
+// Get the last recorded date
+String lastDateStr = props.get(lastDateVar);
+LocalDate lastDate = lastDateStr != null ? LocalDate.parse(lastDateStr) : LocalDate.now();
+
+// Get the current date
+LocalDate currentDate = LocalDate.now();
+
+// Calculate the number of days between the last recorded date and the current date
+long daysDifference = ChronoUnit.DAYS.between(lastDate, currentDate);
+
+// Set the daySequence based on the day difference and iteration count
+int initialSequence = TG_UK_FPOS_DaySeqInt + iterationCount - 1; // Increment by 1 for every iteration
+
+int AccDayNum = initialSequence + (int) daysDifference;
+
+// Save the updated sequence number, last recorded date, and iteration count back to JMeter variables and properties
+vars.put(sequenceVar, String.valueOf(AccDayNum));
+vars.put(iterationVar, String.valueOf(iterationCount));
+props.put(lastDateVar, currentDate.toString());
+// AccDayNum - End
+
+// TransRefNum - Start
+String accDayNumString = vars.get(&quot;AccDayNum&quot;);
+if (accDayNumString != null) {
+    int accDayNum = Integer.parseInt(accDayNumString);
+    int newVariableAccRef = accDayNum + 1;
+    vars.put(&quot;AccNextDayNum&quot;, String.valueOf(newVariableAccRef));
+} else {
+    log.error(&quot;AccDayNum is not found in the variables.&quot;);
+}</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_T1ShiftID" enabled="false">
+          <stringProp name="CounterConfig.start">${TG_UK_FPOS_T1ShiftSeq}</stringProp>
+          <stringProp name="CounterConfig.end">999</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">T1ShiftID</stringProp>
+          <stringProp name="CounterConfig.format">000</stringProp>
+          <boolProp name="CounterConfig.per_user">true</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_T2ShiftID" enabled="false">
+          <stringProp name="CounterConfig.start">${TG_UK_FPOS_T2ShiftSeq}</stringProp>
+          <stringProp name="CounterConfig.end">999</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">T2ShiftID</stringProp>
+          <stringProp name="CounterConfig.format">000</stringProp>
+          <boolProp name="CounterConfig.per_user">true</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="LC_FPOS_TRX" enabled="true">
+          <stringProp name="LoopController.loops">${TG_UK_FPOS_Trx_Sftp_Upload_Iterations}</stringProp>
+        </LoopController>
+        <hashTree>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="TD_FPOS_TRXTransactionCount_${StoreID}" enabled="true">
+            <stringProp name="delimiter">,</stringProp>
+            <stringProp name="fileEncoding"></stringProp>
+            <stringProp name="filename">${FPOS_UKTestData}/UK_FPOS_TRX_TransactionCount.csv</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">true</boolProp>
+            <stringProp name="shareMode">shareMode.thread</stringProp>
+            <boolProp name="stopThread">false</boolProp>
+            <stringProp name="variableNames">pMinValue,pMaxValue</stringProp>
+          </CSVDataSet>
+          <hashTree/>
+          <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_TrxSeqNumber" enabled="true">
+            <stringProp name="CounterConfig.start">1</stringProp>
+            <stringProp name="CounterConfig.end">999</stringProp>
+            <stringProp name="CounterConfig.incr">1</stringProp>
+            <stringProp name="CounterConfig.name">counter</stringProp>
+            <stringProp name="CounterConfig.format"></stringProp>
+            <boolProp name="CounterConfig.per_user">false</boolProp>
+          </CounterConfig>
+          <hashTree/>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JS_FPOS_TRX_TranscationCount_${StoreID}" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">def min = Integer.parseInt(vars.get(&quot;pMinValue&quot;));
+def max = Integer.parseInt(vars.get(&quot;pMaxValue&quot;));
+
+// Generate a random number between min and max (inclusive)
+def randomValue = org.apache.commons.lang3.RandomUtils.nextInt(min, max + 1);
+
+// Set the random value generated to a JMeter variable
+vars.put(&quot;ppTrnxNum&quot;, randomValue.toString());</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="UP_FPOS_TRX_Transaction_Parameters_${StoreID}" enabled="true">
+            <collectionProp name="UserParameters.names">
+              <stringProp name="1548998655">DateTimeTrx</stringProp>
+            </collectionProp>
+            <collectionProp name="UserParameters.thread_values">
+              <collectionProp name="-102406363">
+                <stringProp name="1832931640">${__time(yyyyMMddHHmmss)}</stringProp>
+              </collectionProp>
+            </collectionProp>
+            <boolProp name="UserParameters.per_iteration">true</boolProp>
+          </UserParameters>
+          <hashTree/>
+          <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_TRX_BuildTransactionFiles_${StoreID}" enabled="true">
+            <stringProp name="TestPlan.comments">Increment concept completed</stringProp>
+            <stringProp name="BeanShellSampler.query">import org.apache.jmeter.services.FileServer;
+import java.io.*;
+import java.math.BigDecimal;
+
+// Initialize variables for transaction totals
+Double transactionTotalT1 = 0.0;
+Double transactionTotalT2 = 0.0;
+
+// Get the serial number (sno) and transaction number (trasno) from JMeter variables
+String snoString = vars.get(&quot;sno&quot;);
+int sno = (snoString != null) ? Integer.parseInt(snoString) : 0;
+
+String trasnoString = vars.get(&quot;trasno&quot;);
+int trasno = trasnoString != null ? Integer.parseInt(trasnoString) : 101;
+
+// Get data from dynamic transaction values from Transaction_Parameters pre-processor
+String dateTimeTrx = vars.get(&quot;DateTimeTrx&quot;);
+String StoreID = &quot;${StoreID}&quot;;
+String AccDayNum = vars.get(&quot;AccDayNum&quot;);
+String SEQ = vars.get(&quot;AccNextDayNum&quot;);
+
+// Define folder paths for transactions and test results
+String folderPath = &quot;../../TestData/FPOS_Templates/Prod/transactions/&quot;;
+
+String counter = &quot;${counter}&quot;;
+String counter1 = (&quot;0000&quot; + counter).substring(counter.length());
+
+String storeIDFolderPath = &quot;../../TestResults/UK/&quot; + StoreID + &quot;/&quot;;
+File storeIDFolder = new File(storeIDFolderPath);
+storeIDFolder.mkdirs();
+
+// Define file paths for transaction build
+String BuildFileTrx = storeIDFolderPath + (&quot;0000&quot; + counter).substring(counter.length()) + &quot;0&quot; + &quot;${AccNextDayNum}&quot; + &quot;.TRX&quot;;
+String BuildFilename = (&quot;0000&quot; + counter).substring(counter.length()) + &quot;0&quot; + &quot;${AccNextDayNum}&quot; + &quot;.TRX&quot;;
+vars.put(&quot;btrxfile&quot;, BuildFilename);
+
+String TransactionCount = vars.get(&quot;ppTrnxNum&quot;);
+int count = Integer.parseInt(TransactionCount);
+
+File folder = new File(folderPath);
+File[] files = folder.listFiles();
+
+if (files != null &amp;&amp; files.length &gt; 0) {
+    
+    // Write transactions to a file
+    BufferedWriter writer = new BufferedWriter(new FileWriter(BuildFileTrx));
+
+    // Write file header
+    writer.write(&quot;[START_FILE]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[TRX]&quot;);
+    writer.newLine();
+
+    String shiftNum = &quot;&quot;;
+    String operatorId = &quot;&quot;;
+    String tillNum = &quot;&quot;;
+
+    // Iterate over transaction files
+    for (int i = 0; i &lt; count &amp;&amp; i &lt; files.length; i++)
+    {         
+        // Determine shift, operator, and till numbers based on iteration
+        if ((i % 2 == 0))
+        {
+            shiftNum = &quot;${ShiftRepNr_TillNo_2}&quot;;
+            operatorId = &quot;${T2OptrID}&quot;;
+            tillNum = &quot;${T2TillID}&quot;;
+        }
+        else
+        {
+            shiftNum = &quot;${ShiftRepNr_TillNo_1}&quot;;
+            operatorId = &quot;${T1OptrID}&quot;;
+            tillNum = &quot;${T1TillID}&quot;;
+        }
+
+        File selectedFile = files[i];       
+        if (i &gt; 0) sno = Integer.parseInt(vars.get(&quot;sno&quot;));
+        
+        String s = &quot;&quot;;
+        for (int j = 0; j&lt;7- (String.valueOf(i+sno).length()); j++)
+            s += &quot;0&quot;;
+
+        int newSeq = sno + i + 1;
+        String seqString = String.valueOf(newSeq);
+        int length = seqString.length();
+        
+        if (length &lt; 4) {
+            StringBuilder paddedSeq = new StringBuilder();
+            for (int k = 0; k &lt; 4 - length; k++) {
+                paddedSeq.append(&quot;0&quot;);
+            }
+            paddedSeq.append(seqString);
+            seqString = paddedSeq.toString();
+        }
+
+        BufferedReader reader = new BufferedReader(new FileReader(selectedFile));
+        String line;
+    
+        // Process each line of the transaction file
+        while ((line = reader.readLine()) != null) 
+        { 
+            // Replace placeholders with actual values
+            line = line.replace(&quot;#SNO#&quot;, String.valueOf(trasno));
+            line = line.replace(&quot;#DATI#&quot;, dateTimeTrx);
+            line = line.replace(&quot;#STATION_NR#&quot;, StoreID);
+            line = line.replace(&quot;#ShiftID#&quot;, shiftNum);
+            line = line.replace(&quot;#ACC_REP_NR#&quot;, AccDayNum);
+            line = line.replace(&quot;#OPID#&quot;, operatorId);
+            line = line.replace(&quot;@TillID@&quot;, tillNum);
+            line = line.replace(&quot;#AccDayNum#&quot;, &quot;0&quot; + AccDayNum);
+            line = line.replace(&quot;#REFSEQ#&quot;, seqString);
+            line = line.replace(&quot;#SEQ#&quot;, &quot;0&quot; + SEQ + tillNum + s + (sno+1-(i/2)));
+            
+            // Write the modified line to the output file
+            writer.write(line);
+            writer.newLine();
+            
+            // Update transaction totals if SLSTOT is encountered
+            if (line.startsWith(&quot;SLSTOT&quot;)) {
+                String[] parts = line.split(&quot;=&quot;);
+                if (parts.length == 2) {
+                    try {   
+                        if (tillNum.contains(&quot;11&quot;))     
+                        {
+                            transactionTotalT1  = transactionTotalT1 + Double.parseDouble(parts[1].trim());   
+                        }
+                        
+                        if (tillNum.contains(&quot;12&quot;))                     
+                            transactionTotalT2  = transactionTotalT2 + Double.parseDouble(parts[1].trim());
+                        
+                    } 
+                    catch (NumberFormatException e) {
+                        log.error(&quot;Error parsing SLSTOT value: &quot; + e.getMessage());
+                    }
+                }
+            }
+        }
+        
+        reader.close();
+
+        // Increment sno and trasno for the next file
+        sno++;
+        trasno++;
+        vars.put(&quot;sno&quot;, String.valueOf(sno));
+    }
+
+    // Update transaction totals in JMeter variables
+    Double sumT1Dval = Double.parseDouble(vars.get(&quot;sumT1&quot;));
+    sumT1Dval = sumT1Dval + transactionTotalT1;
+    sumT1Dval = Math.round(sumT1Dval * 100.0) / 100.0;
+    vars.put(&quot;sumT1&quot;, Double.toString(sumT1Dval));
+
+    Double sumT2Dval = Double.parseDouble(vars.get(&quot;sumT2&quot;));
+    sumT2Dval = sumT2Dval + transactionTotalT2;
+    sumT2Dval = Math.round(sumT2Dval * 100.0) / 100.0;
+    vars.put(&quot;sumT2&quot;, Double.toString(sumT2Dval));
+
+    vars.put(&quot;trasno&quot;, String.valueOf(trasno));
+    vars.put(&quot;sno&quot;, String.valueOf(sno));
+    
+    // Write file footer and additional information
+    writer.write(&quot;[END_TRX]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[GENERIC_FILE_INFO]&quot;);
+    writer.newLine();
+    writer.write(&quot;CREATED=&quot; + &quot;${__time(yyyyMMddHHmmss)}&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[END_GENERIC_FILE_INFO]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[END_FILE]&quot;);
+    writer.newLine();
+
+    // Close the file writer
+    writer.close();
+}</stringProp>
+            <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+          </BeanShellSampler>
+          <hashTree/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UK_TR_FPOS_TRX_01_SFTP_Upload_${StoreID}" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
+          <hashTree>
+            <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_TRX_UploadTRXFile_${StoreID}" enabled="true">
+              <stringProp name="action">put</stringProp>
+              <stringProp name="connectionTimeout">${TG_UK_FPOS_Conn_TimeOut}</stringProp>
+              <stringProp name="destination">${StoreID}/${btrxfile}/</stringProp>
+              <stringProp name="hostname">${TG_UK_FPOS_Sftp_Hostname}</stringProp>
+              <stringProp name="passphrase"></stringProp>
+              <stringProp name="password"></stringProp>
+              <stringProp name="port">${TG_UK_FPOS_Sftp_Port}</stringProp>
+              <boolProp name="printFile">true</boolProp>
+              <stringProp name="source">../../TestResults/UK/${StoreID}/${btrxfile}</stringProp>
+              <stringProp name="sshkeyfile">${TG_UK_FPOS_Sftp_Key}</stringProp>
+              <stringProp name="username">${TG_UK_FPOS_Sftp_Username}</stringProp>
+            </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+            <hashTree>
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                <collectionProp name="Asserion.test_strings">
+                  <stringProp name="2524">OK</stringProp>
+                </collectionProp>
+                <stringProp name="Assertion.custom_message">TRX Not Uploaded</stringProp>
+                <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+                <boolProp name="Assertion.assume_success">false</boolProp>
+                <intProp name="Assertion.test_type">2</intProp>
+              </ResponseAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_Trx_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_UK_FPOS_Trx_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftReportLogics_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//shift report OPEN-start
+Calendar calndar = Calendar.getInstance();  // Get current time
+SimpleDateFormat DateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String CurrTimeStamp = DateFormat.format(calndar.getTime());
+vars.put(&quot;CurrTimeStamp1&quot;,CurrTimeStamp);
+//shift report OPEN end
+
+//shift report CLOS-start
+Calendar calendar = Calendar.getInstance();  // Get current time
+ //Add 4 hours to the current time
+calendar.add(Calendar.HOUR_OF_DAY, 4);
+SimpleDateFormat dateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String ShiftClsTime = dateFormat.format(calendar.getTime());
+vars.put(&quot;ShiftClsTime1&quot;,ShiftClsTime);
+//shift report CLOS end
+
+//shift day opened-Start
+Calendar calendar = Calendar.getInstance();
+int dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+
+String dayString = String.valueOf(dayNumber);
+// Assuming `vars` is a map where you want to store this value
+vars.put(&quot;StapDayNum&quot;, dayString);
+// Logging the dayString value
+log.info(&quot;Number of the day as a string: &quot; + dayString);
+//shift day opened-end
+
+//sequens number for inceasing the shift-start
+String counter = &quot;${__counter(FALSE,0000)}&quot;;
+String SequeNumber = (&quot;0000&quot; + counter).substring(counter.length());
+vars.put(&quot;FourSeqDit&quot;, SequeNumber);
+//sequens number for inceasing the shift-end
+
+
+//AccRefNum-start
+// Define the initial value of accDayNum
+int accDayNum = 200;
+
+// Function to increment accDayNum and return the incremented value
+int getAccDayNum() {
+    accDayNum++;
+    return accDayNum;
+}
+
+// Call the function to get the incremented value
+int incrementedValue = getAccDayNum();
+
+// Output the incremented value to JMeter&apos;s log
+log.info(&quot;Incremented value: &quot; + incrementedValue);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftFile_${StoreID}_H1" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.DecimalFormat;
+
+// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/Shift_06850834.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/UK/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+// Define User Defined Variables
+String OPEN = vars.get(&quot;CurrTimeStamp1&quot;);
+String CLOS = vars.get(&quot;ShiftClsTime1&quot;);
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String REP_NR = vars.get(&quot;ShiftRepNr_TillNo_1&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+String TURN = vars.get(&quot;sumT1&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###OPID###&quot;, &quot;${T1OptrID}&quot;);
+fileContent = fileContent.replace(&quot;###POS###&quot;, &quot;${T1POS}&quot;);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STID###&quot;, STID);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, &quot;${ShiftRepNr_TillNo_1}&quot;);
+fileContent = fileContent.replace(&quot;###ACC_REP_NR###&quot;, ACC_REP_NR);
+fileContent = fileContent.replace(&quot;###TURN###&quot;, TURN);
+
+String BuildShiftH1 = baseOutputPath + &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H1&quot;;
+String BuildShiftFilename = &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H1&quot;;
+vars.put(&quot;bshiftreportH1&quot;, BuildShiftFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildShiftH1);
+    writer.write(fileContent);
+    writer.close();
+
+    log.info(&quot;File saved successfully: &quot; + BuildShiftH1);
+
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_ShiftFile_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_UK_FPOS_ShiftFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UK_TR_FPOS_ShiftReportFileH1_01_SFTP_Upload_${StoreID}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_ShiftReport_UploadShiftReportFile_${StoreID}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_UK_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bshiftreportH1}/</stringProp>
+            <stringProp name="hostname">${TG_UK_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_UK_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/UK/${StoreID}/${bshiftreportH1}</stringProp>
+            <stringProp name="sshkeyfile">${TG_UK_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_UK_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">ShiftFile H1 Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftReportLogics_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//shift report OPEN-start
+Calendar calndar = Calendar.getInstance();  // Get current time
+SimpleDateFormat DateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String CurrTimeStamp = DateFormat.format(calndar.getTime());
+vars.put(&quot;CurrTimeStamp1&quot;,CurrTimeStamp);
+//shift report OPEN end
+
+//shift report CLOS-start
+Calendar calendar = Calendar.getInstance();  // Get current time
+ //Add 4 hours to the current time
+calendar.add(Calendar.HOUR_OF_DAY, 4);
+SimpleDateFormat dateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String ShiftClsTime = dateFormat.format(calendar.getTime());
+vars.put(&quot;ShiftClsTime1&quot;,ShiftClsTime);
+//shift report CLOS end
+
+//shift day opened-Start
+Calendar calendar = Calendar.getInstance();
+int dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+
+String dayString = String.valueOf(dayNumber);
+// Assuming `vars` is a map where you want to store this value
+vars.put(&quot;StapDayNum&quot;, dayString);
+// Logging the dayString value
+log.info(&quot;Number of the day as a string: &quot; + dayString);
+//shift day opened-end
+
+//sequens number for inceasing the shift-start
+String counter = &quot;${__counter(FALSE,0000)}&quot;;
+String SequeNumber = (&quot;0000&quot; + counter).substring(counter.length());
+vars.put(&quot;FourSeqDit&quot;, SequeNumber);
+//sequens number for inceasing the shift-end
+
+
+//AccRefNum-start
+// Define the initial value of accDayNum
+int accDayNum = 200;
+
+// Function to increment accDayNum and return the incremented value
+int getAccDayNum() {
+    accDayNum++;
+    return accDayNum;
+}
+
+// Call the function to get the incremented value
+int incrementedValue = getAccDayNum();
+
+// Output the incremented value to JMeter&apos;s log
+log.info(&quot;Incremented value: &quot; + incrementedValue);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftFile_${StoreID}_H2" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.DecimalFormat;
+
+// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/Shift_06850834.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/UK/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+// Define User Defined Variables
+String OPEN = vars.get(&quot;CurrTimeStamp1&quot;);
+String CLOS = vars.get(&quot;ShiftClsTime1&quot;);
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String REP_NR = vars.get(&quot;ShiftRepNr_TillNo_2&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+String TURN = vars.get(&quot;sumT2&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+		
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###OPID###&quot;, &quot;${T2OptrID}&quot;);
+fileContent = fileContent.replace(&quot;###POS###&quot;, &quot;${T2POS}&quot;);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STID###&quot;, &quot;${StoreID}&quot;);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, &quot;${ShiftRepNr_TillNo_2}&quot;);
+fileContent = fileContent.replace(&quot;###ACC_REP_NR###&quot;, ACC_REP_NR);
+fileContent = fileContent.replace(&quot;###TURN###&quot;, TURN);
+
+String BuildShiftH2 = baseOutputPath + &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H2&quot;;
+String BuildShiftFilename = &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H2&quot;;
+vars.put(&quot;bshiftreportH2&quot;, BuildShiftFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildShiftH2);
+    writer.write(fileContent);
+    writer.close();
+
+    log.info(&quot;File saved successfully: &quot; + BuildShiftH2);
+
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_ShiftFile_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_UK_FPOS_ShiftFile_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UK_TR_FPOS_ShiftReportFileH2_02_SFTP_Upload_${StoreID}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_ShiftReport_UploadShiftReportFile_${StoreID}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_UK_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bshiftreportH2}/</stringProp>
+            <stringProp name="hostname">${TG_UK_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_UK_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/UK/${StoreID}/${bshiftreportH2}</stringProp>
+            <stringProp name="sshkeyfile">${TG_UK_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_UK_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">ShiftFile H2 Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_DayReport_BuildParameters_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//AccDayOpenDT
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+String currentDateTime = sdf.format(new Date());
+log.info(&quot;AccDayOpenDT &quot; + currentDateTime);
+vars.put(&quot;AccDayOpenDT&quot;, currentDateTime);
+//AccDayOpenDT
+
+//AccDayCloseDT - Start
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.add(Calendar.HOUR, 24); //  24 hours from the current time
+String modifiedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;AccDayCloseDT&quot;, modifiedDateTime);
+//AccDayCloseDT - End
+
+//fdate start 
+// Assume &quot;AccDayCloseDT&quot; variable contains the modified closing time
+String modifiedDateTime = vars.get(&quot;AccDayCloseDT&quot;);
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.setTime(sdf.parse(modifiedDateTime));
+// Generate a random number of hours between 2 and 3
+int randomHours = (int) (Math.random() * 2) + 2; // Random number between 2 and 3
+calendar.add(Calendar.HOUR, -randomHours); // Subtract the random hours from the modified closing time
+
+String reversedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;FdatLstSale&quot;, reversedDateTime);
+
+//SdatLstSale
+String modifiedDateTime = vars.get(&quot;AccDayCloseDT&quot;);
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.setTime(sdf.parse(modifiedDateTime));
+
+// Generate a random number of hours between 1 and 4
+int randomHours = (int) (Math.random() * 4) + 1; // Random number between 1 and 4
+calendar.add(Calendar.HOUR, -randomHours); // Subtract the random hours from &quot;AccDayCloseDT&quot;
+String adjustedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;SdatLstSale&quot;, adjustedDateTime);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">true</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_DayReport_BuildDayReportFile_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import org.apache.jmeter.services.FileServer;
+import java.io.*;
+import java.math.BigDecimal;
+
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Retrieve the values from the sumT1 and sumT2
+String sumT1String = vars.get(&quot;sumT1&quot;);
+String sumT2String = vars.get(&quot;sumT2&quot;);
+
+// Parse the retrieved string values into double variables
+Double sumT1Dval = Double.parseDouble(sumT1String);
+Double sumT2Dval = Double.parseDouble(sumT2String);
+
+// Perform addition
+Double sumResult = sumT1Dval + sumT2Dval;
+
+// Round the result to two decimal places
+sumResult = Math.round(sumResult * 100.0) / 100.0;
+
+
+// Getting file path 
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/DayReport_06850207.txt&quot;;
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Storing the results
+String outputpath = &quot;../../TestResults/UK/&quot;  + STID + &quot;/&quot;;
+File storeIDFolder = new File(outputpath);
+storeIDFolder.mkdirs();
+
+// User Defined Variables
+String OPEN = vars.get(&quot;AccDayOpenDT&quot;);
+String CLOS = vars.get(&quot;AccDayCloseDT&quot;);
+String FDATI = vars.get(&quot;FdatLstSale&quot;);
+String SDATI = vars.get(&quot;SdatLstSale&quot;);
+String REP_NR = vars.get(&quot;AccNextDayNum&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+
+//String sumResultStr = Double.toString(sumResult);
+//sumResultStr = Math.round(sumResultStr * 100.0) / 100.0;
+
+
+// Replace placeholders in the file content
+String sumResultStr = String.valueOf(sumResult);
+//vars.put(&quot;TurnForDayReport&quot;, Double.toString(sumResult));
+vars.put(&quot;TurnForDayReport&quot;, sumResultStr);
+fileContent = fileContent.replace(&quot;##OPEN##&quot;, OPEN)
+    .replace(&quot;##CLOS##&quot;, CLOS)
+    .replace(&quot;##STID##&quot;, STID)
+    .replace(&quot;##FDATI##&quot;, FDATI)
+    .replace(&quot;##SDATI##&quot;, SDATI)
+    .replace(&quot;##REP_NR##&quot;, REP_NR)
+    .replace(&quot;##ACC_REP_NR##&quot;, ACC_REP_NR)
+    .replace(&quot;##TURN##&quot;, sumResultStr);
+
+// Write the modified content to a new file
+String BuildDayReport = outputpath + STID + &quot;0&quot; + REP_NR + &quot;.P&quot;;
+String BuildDayReportFilename = STID + &quot;0&quot; + REP_NR + &quot;.P&quot;;
+vars.put(&quot;bDayReportfile&quot;, BuildDayReportFilename);
+
+try {
+    FileWriter writer = new FileWriter(BuildDayReport);
+    writer.write(fileContent);
+    writer.close();
+    log.info(&quot;File saved successfully: &quot; + BuildDayReport);
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="DayReport_TD" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_UK_FPOS_DayFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UK_TR_FPOS_DayReportFile_01_SFTP_Upload_${StoreID}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_DayReport_UploadDayReportFile_${StoreID}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_UK_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bDayReportfile}/</stringProp>
+            <stringProp name="hostname">${TG_UK_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_UK_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/UK/${StoreID}/${bDayReportfile}</stringProp>
+            <stringProp name="sshkeyfile">${TG_UK_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_UK_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">DayReport Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="UP_FPOS_AccDayFile_Variables_${StoreID}" enabled="true">
+          <collectionProp name="UserParameters.names">
+            <stringProp name="2147457732">CurrTimeStamp</stringProp>
+          </collectionProp>
+          <collectionProp name="UserParameters.thread_values">
+            <collectionProp name="-102406363">
+              <stringProp name="1832931640">${__time(yyyyMMddHHmmss)}</stringProp>
+            </collectionProp>
+          </collectionProp>
+          <boolProp name="UserParameters.per_iteration">true</boolProp>
+        </UserParameters>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_AccDayFile_BuildParameters_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+// Get the current date and time
+Calendar calendar = Calendar.getInstance();
+calendar.add(Calendar.DAY_OF_MONTH, -1); // Subtract 1 day
+
+// Define the date format
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+
+// Format the date and time
+String PrevTimeStamp = sdf.format(calendar.getTime());
+
+// Set the variable for later use
+vars.put(&quot;PrevTimeStamp&quot;, PrevTimeStamp);
+// PrevTimeStamp End</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_AccDayFile_BuildAccDayReportFile_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/AccDay_Report.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/UK/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+String counter = &quot;$(__counter(FALSE,0000))&quot;;
+String OPEN = vars.get(&quot;PrevTimeStamp&quot;); 
+String CLOS = vars.get(&quot;CurrTimeStamp&quot;); 
+String PER = vars.get(&quot;AccDayNum&quot;); 
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String STAS1 = vars.get(&quot;ShiftRepNr_TillNo_1&quot;);
+String CLSS1 = vars.get(&quot;ShiftRepNr_TillNo_1&quot;);
+String STAS2 = vars.get(&quot;ShiftRepNr_TillNo_2&quot;);
+String CLSS2 = vars.get(&quot;ShiftRepNr_TillNo_2&quot;);
+String REP_NR = vars.get(&quot;AccDayNum&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###PER###&quot;, PER);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STAS1###&quot;, STAS1);
+fileContent = fileContent.replace(&quot;###CLSS1###&quot;, CLSS1);
+fileContent = fileContent.replace(&quot;###STAS2###&quot;, STAS2);
+fileContent = fileContent.replace(&quot;###CLSS2###&quot;, CLSS2);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, REP_NR);
+
+String BuildAccDayFile = baseOutputPath + STID + (&quot;0&quot; + PER) + &quot;.A&quot;;
+String BuildAccDayFilename = STID + (&quot;0&quot; + PER) + &quot;.A&quot;;
+vars.put(&quot;AccReportFile&quot;, BuildAccDayFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildAccDayFile);
+    writer.write(fileContent);
+    writer.close();
+    log.info(&quot;File saved successfully: &quot; + BuildAccDayFile);
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="AccDayReport_TD" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_UK_FPOS_AccDayFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UK_TR_FPOS_AccDayReportFile_01_SFTP_Upload_${StoreID}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_AccDayReport_UploadAccDayReportFile_${StoreID}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_UK_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${AccReportFile}/</stringProp>
+            <stringProp name="hostname">${TG_UK_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_UK_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/UK/${StoreID}/${AccReportFile}</stringProp>
+            <stringProp name="sshkeyfile">${TG_UK_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_UK_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">AccDayReport Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftTotals_${StoreID}" enabled="true">
+          <stringProp name="BeanShellSampler.query">// Retrieve values
+String storeID = vars.get(&quot;StoreID&quot;);
+String sumT1 = vars.get(&quot;sumT1&quot;);
+String sumT2 = vars.get(&quot;sumT2&quot;);
+String dayTurnValue = vars.get(&quot;TurnForDayReport&quot;);
+
+// Define the CSV file path
+String filePath = &quot;../../TestResults/UKTestReport.csv&quot;; // Replace with your desired file path
+
+// Create CSV content
+String csvContent = storeID + &quot;,&quot; + sumT1 + &quot;,&quot; + sumT2 + &quot;,&quot; + dayTurnValue + &quot;\n&quot;;
+
+// Write to the CSV file
+try {
+    File file = new File(filePath);
+    FileWriter fileWriter = new FileWriter(file, true);
+    BufferedWriter writer = new BufferedWriter(fileWriter);
+
+    // Check if file exists or not
+    if (!file.exists()) {
+        file.createNewFile();
+        writer.write(&quot;StoreID, sumT1, sumT2, DayTurnValue\n&quot;); // Add header if the file is newly created
+    }
+
+    // Write content to the file
+    writer.write(csvContent);
+
+    // Close the writer
+    writer.close();
+} catch (IOException e) {
+    log.error(&quot;Error writing to the file: &quot; + e);
+}</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="NL_TG_FPOS" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">${TG_NL_FPOS_Iterations}</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">${TG_NL_FPOS_Users}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${TG_NL_FPOS_RampUpTime}</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="UserDefinedVaribales_POSTotals" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="sumT1" elementType="Argument">
+              <stringProp name="Argument.name">sumT1</stringProp>
+              <stringProp name="Argument.value">0.0</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="sumT2" elementType="Argument">
+              <stringProp name="Argument.name">sumT2</stringProp>
+              <stringProp name="Argument.value">0.0</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_TRX_BuildParamaters_" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+import java.util.Random;
+
+// AccDayNum - Start
+String sequenceVar = &quot;AccDayNum&quot;;
+String lastDateVar = &quot;lastDate&quot;;
+String iterationVar = &quot;iterationCount&quot;;
+
+// Check if the iteration count variable exists, initialize it to 0 if not
+int iterationCount = Integer.parseInt(vars.get(iterationVar) != null ? vars.get(iterationVar) : &quot;0&quot;);
+
+// Increment the iteration count
+iterationCount++;
+
+// Get the last recorded date
+String lastDateStr = props.get(lastDateVar);
+LocalDate lastDate = lastDateStr != null ? LocalDate.parse(lastDateStr) : LocalDate.now();
+
+// Get the current date
+LocalDate currentDate = LocalDate.now();
+
+// Calculate the number of days between the last recorded date and the current date
+long daysDifference = ChronoUnit.DAYS.between(lastDate, currentDate);
+
+// Set the daySequence based on the day difference and iteration count
+int initialSequence = 205 + iterationCount - 1; // Increment by 1 for every iteration
+
+int AccDayNum = initialSequence + (int) daysDifference;
+
+// Save the updated sequence number, last recorded date, and iteration count back to JMeter variables and properties
+vars.put(sequenceVar, String.valueOf(AccDayNum));
+vars.put(iterationVar, String.valueOf(iterationCount));
+props.put(lastDateVar, currentDate.toString());
+// AccDayNum - End
+
+// TransRefNum - Start
+String accDayNumString = vars.get(&quot;AccDayNum&quot;);
+if (accDayNumString != null) {
+    int accDayNum = Integer.parseInt(accDayNumString);
+    int newVariableAccRef = accDayNum + 1;
+    vars.put(&quot;AccNextDayNum&quot;, String.valueOf(newVariableAccRef));
+} else {
+    log.error(&quot;AccDayNum is not found in the variables.&quot;);
+}</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_T1ShiftID" enabled="true">
+          <stringProp name="CounterConfig.start">120</stringProp>
+          <stringProp name="CounterConfig.end">999</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">T1ShiftID</stringProp>
+          <stringProp name="CounterConfig.format">000</stringProp>
+          <boolProp name="CounterConfig.per_user">true</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_T2ShiftID" enabled="true">
+          <stringProp name="CounterConfig.start">350</stringProp>
+          <stringProp name="CounterConfig.end">999</stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">T2ShiftID</stringProp>
+          <stringProp name="CounterConfig.format">000</stringProp>
+          <boolProp name="CounterConfig.per_user">true</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="LC_FPOS_TRX" enabled="true">
+          <stringProp name="LoopController.loops">${TG_NL_FPOS_Trx_Sftp_Upload_Iterations}</stringProp>
+        </LoopController>
+        <hashTree>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="TD_FPOS_TRXTransactionCount_${__threadGroupName}" enabled="true">
+            <stringProp name="delimiter">,</stringProp>
+            <stringProp name="fileEncoding"></stringProp>
+            <stringProp name="filename">${FPOS_NLTestData}/NL_FPOS_TRX_TransactionCount.csv</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">true</boolProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
+            <boolProp name="stopThread">false</boolProp>
+            <stringProp name="variableNames">pMinValue,pMaxValue</stringProp>
+          </CSVDataSet>
+          <hashTree/>
+          <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter_TrxSeqNumber" enabled="true">
+            <stringProp name="CounterConfig.start">1</stringProp>
+            <stringProp name="CounterConfig.end">999</stringProp>
+            <stringProp name="CounterConfig.incr">1</stringProp>
+            <stringProp name="CounterConfig.name">counter</stringProp>
+            <stringProp name="CounterConfig.format"></stringProp>
+            <boolProp name="CounterConfig.per_user">false</boolProp>
+          </CounterConfig>
+          <hashTree/>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JS_FPOS_TRX_TranscationCount_${__threadGroupName}" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">def min = Integer.parseInt(vars.get(&quot;pMinValue&quot;));
+def max = Integer.parseInt(vars.get(&quot;pMaxValue&quot;));
+
+// Generate a random number between min and max (inclusive)
+def randomValue = org.apache.commons.lang3.RandomUtils.nextInt(min, max + 1);
+
+// Set the random value generated to a JMeter variable
+vars.put(&quot;ppTrnxNum&quot;, randomValue.toString());</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="UP_FPOS_TRX_Transaction_Parameters_${__threadGroupName}" enabled="true">
+            <collectionProp name="UserParameters.names">
+              <stringProp name="1548998655">DateTimeTrx</stringProp>
+            </collectionProp>
+            <collectionProp name="UserParameters.thread_values">
+              <collectionProp name="-102406363">
+                <stringProp name="1832931640">${__time(yyyyMMddHHmmss)}</stringProp>
+              </collectionProp>
+            </collectionProp>
+            <boolProp name="UserParameters.per_iteration">true</boolProp>
+          </UserParameters>
+          <hashTree/>
+          <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_TRX_BuildTransactionFiles_${__threadGroupName}" enabled="true">
+            <stringProp name="TestPlan.comments">Increment concept completed</stringProp>
+            <stringProp name="BeanShellSampler.query">import org.apache.jmeter.services.FileServer;
+import java.io.*;
+import java.math.BigDecimal;
+
+// Initialize variables for transaction totals
+Double transactionTotalT1 = 0.0;
+Double transactionTotalT2 = 0.0;
+
+// Get the serial number (sno) and transaction number (trasno) from JMeter variables
+String snoString = vars.get(&quot;sno&quot;);
+int sno = (snoString != null) ? Integer.parseInt(snoString) : 0;
+
+String trasnoString = vars.get(&quot;trasno&quot;);
+int trasno = trasnoString != null ? Integer.parseInt(trasnoString) : 101;
+
+// Get data from dynamic transaction values from Transaction_Parameters pre-processor
+String dateTimeTrx = vars.get(&quot;DateTimeTrx&quot;);
+String StoreID = &quot;${StoreID}&quot;;
+String AccDayNum = vars.get(&quot;AccDayNum&quot;);
+String SEQ = vars.get(&quot;AccNextDayNum&quot;);
+
+// Define folder paths for transactions and test results
+String folderPath = &quot;../../TestData/FPOS_Templates/Prod/transactions/&quot;;
+
+String counter = &quot;${counter}&quot;;
+String counter1 = (&quot;0000&quot; + counter).substring(counter.length());
+
+String storeIDFolderPath = &quot;../../TestResults/NL/&quot; + StoreID + &quot;/&quot;;
+File storeIDFolder = new File(storeIDFolderPath);
+storeIDFolder.mkdirs();
+
+// Define file paths for transaction build
+String BuildFileTrx = storeIDFolderPath + (&quot;0000&quot; + counter).substring(counter.length()) + &quot;0&quot; + &quot;${AccNextDayNum}&quot; + &quot;.TRX&quot;;
+String BuildFilename = (&quot;0000&quot; + counter).substring(counter.length()) + &quot;0&quot; + &quot;${AccNextDayNum}&quot; + &quot;.TRX&quot;;
+vars.put(&quot;btrxfile&quot;, BuildFilename);
+
+String TransactionCount = vars.get(&quot;ppTrnxNum&quot;);
+int count = Integer.parseInt(TransactionCount);
+
+File folder = new File(folderPath);
+File[] files = folder.listFiles();
+
+if (files != null &amp;&amp; files.length &gt; 0) {
+    
+    // Write transactions to a file
+    BufferedWriter writer = new BufferedWriter(new FileWriter(BuildFileTrx));
+
+    // Write file header
+    writer.write(&quot;[START_FILE]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[TRX]&quot;);
+    writer.newLine();
+
+    String shiftNum = &quot;&quot;;
+    String operatorId = &quot;&quot;;
+    String tillNum = &quot;&quot;;
+
+    // Iterate over transaction files
+    for (int i = 0; i &lt; count &amp;&amp; i &lt; files.length; i++)
+    {         
+        // Determine shift, operator, and till numbers based on iteration
+        if ((i % 2 == 0))
+        {
+            shiftNum = &quot;${T2ShiftID}&quot;;
+            operatorId = &quot;${T2OptrID}&quot;;
+            tillNum = &quot;${T2TillID}&quot;;
+        }
+        else
+        {
+            shiftNum = &quot;${T1ShiftID}&quot;;
+            operatorId = &quot;${T1OptrID}&quot;;
+            tillNum = &quot;${T1TillID}&quot;;
+        }
+
+        File selectedFile = files[i];       
+        if (i &gt; 0) sno = Integer.parseInt(vars.get(&quot;sno&quot;));
+        
+        String s = &quot;&quot;;
+        for (int j = 0; j&lt;7- (String.valueOf(i+sno).length()); j++)
+            s += &quot;0&quot;;
+
+        int newSeq = sno + i + 1;
+        String seqString = String.valueOf(newSeq);
+        int length = seqString.length();
+        
+        if (length &lt; 4) {
+            StringBuilder paddedSeq = new StringBuilder();
+            for (int k = 0; k &lt; 4 - length; k++) {
+                paddedSeq.append(&quot;0&quot;);
+            }
+            paddedSeq.append(seqString);
+            seqString = paddedSeq.toString();
+        }
+
+        BufferedReader reader = new BufferedReader(new FileReader(selectedFile));
+        String line;
+    
+        // Process each line of the transaction file
+        while ((line = reader.readLine()) != null) 
+        { 
+            // Replace placeholders with actual values
+            line = line.replace(&quot;#SNO#&quot;, String.valueOf(trasno));
+            line = line.replace(&quot;#DATI#&quot;, dateTimeTrx);
+            line = line.replace(&quot;#STATION_NR#&quot;, StoreID);
+            line = line.replace(&quot;#ShiftID#&quot;, shiftNum);
+            line = line.replace(&quot;#ACC_REP_NR#&quot;, AccDayNum);
+            line = line.replace(&quot;#OPID#&quot;, operatorId);
+            line = line.replace(&quot;@TillID@&quot;, tillNum);
+            line = line.replace(&quot;#AccDayNum#&quot;, &quot;0&quot; + AccDayNum);
+            line = line.replace(&quot;#REFSEQ#&quot;, seqString);
+            line = line.replace(&quot;#SEQ#&quot;, &quot;0&quot; + SEQ + tillNum + s + (sno+1-(i/2)));
+            
+            // Write the modified line to the output file
+            writer.write(line);
+            writer.newLine();
+            
+            // Update transaction totals if SLSTOT is encountered
+            if (line.startsWith(&quot;SLSTOT&quot;)) {
+                String[] parts = line.split(&quot;=&quot;);
+                if (parts.length == 2) {
+                    try {   
+                        if (tillNum.contains(&quot;11&quot;))     
+                        {
+                            transactionTotalT1  = transactionTotalT1 + Double.parseDouble(parts[1].trim());   
+                        }
+                        
+                        if (tillNum.contains(&quot;12&quot;))                     
+                            transactionTotalT2  = transactionTotalT2 + Double.parseDouble(parts[1].trim());
+                        
+                    } 
+                    catch (NumberFormatException e) {
+                        log.error(&quot;Error parsing SLSTOT value: &quot; + e.getMessage());
+                    }
+                }
+            }
+        }
+        
+        reader.close();
+
+        // Increment sno and trasno for the next file
+        sno++;
+        trasno++;
+        vars.put(&quot;sno&quot;, String.valueOf(sno));
+    }
+
+    // Update transaction totals in JMeter variables
+    Double sumT1Dval = Double.parseDouble(vars.get(&quot;sumT1&quot;));
+    sumT1Dval = sumT1Dval + transactionTotalT1;
+    sumT1Dval = Math.round(sumT1Dval * 100.0) / 100.0;
+    vars.put(&quot;sumT1&quot;, Double.toString(sumT1Dval));
+
+    Double sumT2Dval = Double.parseDouble(vars.get(&quot;sumT2&quot;));
+    sumT2Dval = sumT2Dval + transactionTotalT2;
+    sumT2Dval = Math.round(sumT2Dval * 100.0) / 100.0;
+    vars.put(&quot;sumT2&quot;, Double.toString(sumT2Dval));
+
+    vars.put(&quot;trasno&quot;, String.valueOf(trasno));
+    vars.put(&quot;sno&quot;, String.valueOf(sno));
+    
+    // Write file footer and additional information
+    writer.write(&quot;[END_TRX]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[GENERIC_FILE_INFO]&quot;);
+    writer.newLine();
+    writer.write(&quot;CREATED=&quot; + &quot;${__time(yyyyMMddHHmmss)}&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[END_GENERIC_FILE_INFO]&quot;);
+    writer.newLine();
+    writer.newLine();
+    writer.write(&quot;[END_FILE]&quot;);
+    writer.newLine();
+
+    // Close the file writer
+    writer.close();
+}</stringProp>
+            <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+          </BeanShellSampler>
+          <hashTree/>
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NL_TR_FPOS_TRX_01_SFTP_Upload_${__threadGroupName}" enabled="true">
+            <boolProp name="TransactionController.includeTimers">false</boolProp>
+            <boolProp name="TransactionController.parent">true</boolProp>
+          </TransactionController>
+          <hashTree>
+            <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_TRX_UploadTRXFile_${__threadGroupName}" enabled="true">
+              <stringProp name="action">put</stringProp>
+              <stringProp name="connectionTimeout">${TG_NL_FPOS_Conn_TimeOut}</stringProp>
+              <stringProp name="destination">${StoreID}/${btrxfile}/</stringProp>
+              <stringProp name="hostname">${TG_NL_FPOS_Sftp_Hostname}</stringProp>
+              <stringProp name="passphrase"></stringProp>
+              <stringProp name="password"></stringProp>
+              <stringProp name="port">${TG_NL_FPOS_Sftp_Port}</stringProp>
+              <boolProp name="printFile">true</boolProp>
+              <stringProp name="source">../../TestResults/NL/${StoreID}/${btrxfile}</stringProp>
+              <stringProp name="sshkeyfile">${TG_NL_FPOS_Sftp_Key}</stringProp>
+              <stringProp name="username">${TG_NL_FPOS_Sftp_Username}</stringProp>
+            </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+            <hashTree>
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                <collectionProp name="Asserion.test_strings">
+                  <stringProp name="2524">OK</stringProp>
+                </collectionProp>
+                <stringProp name="Assertion.custom_message">TRX Not Uploaded</stringProp>
+                <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+                <boolProp name="Assertion.assume_success">false</boolProp>
+                <intProp name="Assertion.test_type">2</intProp>
+              </ResponseAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_Trx_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_NL_FPOS_Trx_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftReportLogics_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//shift report OPEN-start
+Calendar calndar = Calendar.getInstance();  // Get current time
+SimpleDateFormat DateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String CurrTimeStamp = DateFormat.format(calndar.getTime());
+vars.put(&quot;CurrTimeStamp1&quot;,CurrTimeStamp);
+//shift report OPEN end
+
+//shift report CLOS-start
+Calendar calendar = Calendar.getInstance();  // Get current time
+ //Add 4 hours to the current time
+calendar.add(Calendar.HOUR_OF_DAY, 4);
+SimpleDateFormat dateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String ShiftClsTime = dateFormat.format(calendar.getTime());
+vars.put(&quot;ShiftClsTime1&quot;,ShiftClsTime);
+//shift report CLOS end
+
+//shift day opened-Start
+Calendar calendar = Calendar.getInstance();
+int dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+
+String dayString = String.valueOf(dayNumber);
+// Assuming `vars` is a map where you want to store this value
+vars.put(&quot;StapDayNum&quot;, dayString);
+// Logging the dayString value
+log.info(&quot;Number of the day as a string: &quot; + dayString);
+//shift day opened-end
+
+//sequens number for inceasing the shift-start
+String counter = &quot;${__counter(FALSE,0000)}&quot;;
+String SequeNumber = (&quot;0000&quot; + counter).substring(counter.length());
+vars.put(&quot;FourSeqDit&quot;, SequeNumber);
+//sequens number for inceasing the shift-end
+
+
+//AccRefNum-start
+// Define the initial value of accDayNum
+int accDayNum = 200;
+
+// Function to increment accDayNum and return the incremented value
+int getAccDayNum() {
+    accDayNum++;
+    return accDayNum;
+}
+
+// Call the function to get the incremented value
+int incrementedValue = getAccDayNum();
+
+// Output the incremented value to JMeter&apos;s log
+log.info(&quot;Incremented value: &quot; + incrementedValue);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftFile_${__threadGroupName} - H1" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.DecimalFormat;
+
+// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/Shift_06850834.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/NL/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+// Define User Defined Variables
+String OPEN = vars.get(&quot;CurrTimeStamp1&quot;);
+String CLOS = vars.get(&quot;ShiftClsTime1&quot;);
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String REP_NR = vars.get(&quot;T1ShiftID&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+String TURN = vars.get(&quot;sumT1&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###OPID###&quot;, &quot;${T1OptrID}&quot;);
+fileContent = fileContent.replace(&quot;###POS###&quot;, &quot;${T1POS}&quot;);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STID###&quot;, STID);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, &quot;${T1ShiftID}&quot;);
+fileContent = fileContent.replace(&quot;###ACC_REP_NR###&quot;, ACC_REP_NR);
+fileContent = fileContent.replace(&quot;###TURN###&quot;, TURN);
+
+String BuildShiftH1 = baseOutputPath + &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H1&quot;;
+String BuildShiftFilename = &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H1&quot;;
+vars.put(&quot;bshiftreportH1&quot;, BuildShiftFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildShiftH1);
+    writer.write(fileContent);
+    writer.close();
+
+    log.info(&quot;File saved successfully: &quot; + BuildShiftH1);
+
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_ShiftFile_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_NL_FPOS_ShiftFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NL_TR_FPOS_ShiftReportFileH1_01_SFTP_Upload_${__threadGroupName}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_ShiftReport_UploadShiftReportFile_${__threadGroupName}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_NL_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bshiftreportH1}/</stringProp>
+            <stringProp name="hostname">${TG_NL_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_NL_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/NL/${StoreID}/${bshiftreportH1}</stringProp>
+            <stringProp name="sshkeyfile">${TG_NL_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_NL_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">ShiftFile H1 Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftReportLogics_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//shift report OPEN-start
+Calendar calndar = Calendar.getInstance();  // Get current time
+SimpleDateFormat DateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String CurrTimeStamp = DateFormat.format(calndar.getTime());
+vars.put(&quot;CurrTimeStamp1&quot;,CurrTimeStamp);
+//shift report OPEN end
+
+//shift report CLOS-start
+Calendar calendar = Calendar.getInstance();  // Get current time
+ //Add 4 hours to the current time
+calendar.add(Calendar.HOUR_OF_DAY, 4);
+SimpleDateFormat dateFormat = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;); // Format the date and time as YYYYMMDDHHmmss
+String ShiftClsTime = dateFormat.format(calendar.getTime());
+vars.put(&quot;ShiftClsTime1&quot;,ShiftClsTime);
+//shift report CLOS end
+
+//shift day opened-Start
+Calendar calendar = Calendar.getInstance();
+int dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+
+String dayString = String.valueOf(dayNumber);
+// Assuming `vars` is a map where you want to store this value
+vars.put(&quot;StapDayNum&quot;, dayString);
+// Logging the dayString value
+log.info(&quot;Number of the day as a string: &quot; + dayString);
+//shift day opened-end
+
+//sequens number for inceasing the shift-start
+String counter = &quot;${__counter(FALSE,0000)}&quot;;
+String SequeNumber = (&quot;0000&quot; + counter).substring(counter.length());
+vars.put(&quot;FourSeqDit&quot;, SequeNumber);
+//sequens number for inceasing the shift-end
+
+
+//AccRefNum-start
+// Define the initial value of accDayNum
+int accDayNum = 200;
+
+// Function to increment accDayNum and return the incremented value
+int getAccDayNum() {
+    accDayNum++;
+    return accDayNum;
+}
+
+// Call the function to get the incremented value
+int incrementedValue = getAccDayNum();
+
+// Output the incremented value to JMeter&apos;s log
+log.info(&quot;Incremented value: &quot; + incrementedValue);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftReport_BuildShiftFile_${__threadGroupName} - H2" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.DecimalFormat;
+
+// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/Shift_06850834.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/NL/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+// Define User Defined Variables
+String OPEN = vars.get(&quot;CurrTimeStamp1&quot;);
+String CLOS = vars.get(&quot;ShiftClsTime1&quot;);
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String REP_NR = vars.get(&quot;T2ShiftID&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+String TURN = vars.get(&quot;sumT2&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+		
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###OPID###&quot;, &quot;${T2OptrID}&quot;);
+fileContent = fileContent.replace(&quot;###POS###&quot;, &quot;${T2POS}&quot;);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STID###&quot;, &quot;${StoreID}&quot;);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, &quot;${T2ShiftID}&quot;);
+fileContent = fileContent.replace(&quot;###ACC_REP_NR###&quot;, ACC_REP_NR);
+fileContent = fileContent.replace(&quot;###TURN###&quot;, TURN);
+
+String BuildShiftH2 = baseOutputPath + &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H2&quot;;
+String BuildShiftFilename = &quot;${StoreID}&quot; + &quot;0&quot; + REP_NR + &quot;.&quot; + &quot;H2&quot;;
+vars.put(&quot;bshiftreportH2&quot;, BuildShiftFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildShiftH2);
+    writer.write(fileContent);
+    writer.close();
+
+    log.info(&quot;File saved successfully: &quot; + BuildShiftH2);
+
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="FPOS_ShiftFile_Sftp_TDelay" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_NL_FPOS_ShiftFile_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NL_TR_FPOS_ShiftReportFileH2_02_SFTP_Upload_${__threadGroupName}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_ShiftReport_UploadShiftReportFile_${__threadGroupName}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_NL_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bshiftreportH2}/</stringProp>
+            <stringProp name="hostname">${TG_NL_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_NL_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/NL/${StoreID}/${bshiftreportH2}</stringProp>
+            <stringProp name="sshkeyfile">${TG_NL_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_NL_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">ShiftFile H2 Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_DayReport_BuildParameters_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import org.apache.commons.lang3.RandomUtils;
+
+//AccDayOpenDT
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+String currentDateTime = sdf.format(new Date());
+log.info(&quot;AccDayOpenDT &quot; + currentDateTime);
+vars.put(&quot;AccDayOpenDT&quot;, currentDateTime);
+//AccDayOpenDT
+
+//AccDayCloseDT - Start
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.add(Calendar.HOUR, 24); //  24 hours from the current time
+String modifiedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;AccDayCloseDT&quot;, modifiedDateTime);
+//AccDayCloseDT - End
+
+//fdate start 
+// Assume &quot;AccDayCloseDT&quot; variable contains the modified closing time
+String modifiedDateTime = vars.get(&quot;AccDayCloseDT&quot;);
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.setTime(sdf.parse(modifiedDateTime));
+// Generate a random number of hours between 2 and 3
+int randomHours = (int) (Math.random() * 2) + 2; // Random number between 2 and 3
+calendar.add(Calendar.HOUR, -randomHours); // Subtract the random hours from the modified closing time
+
+String reversedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;FdatLstSale&quot;, reversedDateTime);
+
+//SdatLstSale
+String modifiedDateTime = vars.get(&quot;AccDayCloseDT&quot;);
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+Calendar calendar = Calendar.getInstance();
+calendar.setTime(sdf.parse(modifiedDateTime));
+
+// Generate a random number of hours between 1 and 4
+int randomHours = (int) (Math.random() * 4) + 1; // Random number between 1 and 4
+calendar.add(Calendar.HOUR, -randomHours); // Subtract the random hours from &quot;AccDayCloseDT&quot;
+String adjustedDateTime = sdf.format(calendar.getTime());
+vars.put(&quot;SdatLstSale&quot;, adjustedDateTime);</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">true</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_DayReport_BuildDayReportFile_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import org.apache.jmeter.services.FileServer;
+import java.io.*;
+import java.math.BigDecimal;
+
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Retrieve the values from the sumT1 and sumT2
+String sumT1String = vars.get(&quot;sumT1&quot;);
+String sumT2String = vars.get(&quot;sumT2&quot;);
+
+// Parse the retrieved string values into double variables
+Double sumT1Dval = Double.parseDouble(sumT1String);
+Double sumT2Dval = Double.parseDouble(sumT2String);
+
+// Perform addition
+Double sumResult = sumT1Dval + sumT2Dval;
+
+// Round the result to two decimal places
+sumResult = Math.round(sumResult * 100.0) / 100.0;
+
+
+// Getting file path 
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/DayReport_06850207.txt&quot;;
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Storing the results
+String outputpath = &quot;../../TestResults/NL/&quot;  + STID + &quot;/&quot;;
+File storeIDFolder = new File(outputpath);
+storeIDFolder.mkdirs();
+
+// User Defined Variables
+String OPEN = vars.get(&quot;AccDayOpenDT&quot;);
+String CLOS = vars.get(&quot;AccDayCloseDT&quot;);
+String FDATI = vars.get(&quot;FdatLstSale&quot;);
+String SDATI = vars.get(&quot;SdatLstSale&quot;);
+String REP_NR = vars.get(&quot;AccNextDayNum&quot;);
+String ACC_REP_NR = vars.get(&quot;AccDayNum&quot;);
+
+//String sumResultStr = Double.toString(sumResult);
+//sumResultStr = Math.round(sumResultStr * 100.0) / 100.0;
+
+
+// Replace placeholders in the file content
+String sumResultStr = String.valueOf(sumResult);
+//vars.put(&quot;TurnForDayReport&quot;, Double.toString(sumResult));
+vars.put(&quot;TurnForDayReport&quot;, sumResultStr);
+fileContent = fileContent.replace(&quot;##OPEN##&quot;, OPEN)
+    .replace(&quot;##CLOS##&quot;, CLOS)
+    .replace(&quot;##STID##&quot;, STID)
+    .replace(&quot;##FDATI##&quot;, FDATI)
+    .replace(&quot;##SDATI##&quot;, SDATI)
+    .replace(&quot;##REP_NR##&quot;, REP_NR)
+    .replace(&quot;##ACC_REP_NR##&quot;, ACC_REP_NR)
+    .replace(&quot;##TURN##&quot;, sumResultStr);
+
+// Write the modified content to a new file
+String BuildDayReport = outputpath + STID + &quot;0&quot; + REP_NR + &quot;.P&quot;;
+String BuildDayReportFilename = STID + &quot;0&quot; + REP_NR + &quot;.P&quot;;
+vars.put(&quot;bDayReportfile&quot;, BuildDayReportFilename);
+
+try {
+    FileWriter writer = new FileWriter(BuildDayReport);
+    writer.write(fileContent);
+    writer.close();
+    log.info(&quot;File saved successfully: &quot; + BuildDayReport);
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="DayReport_TD" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_NL_FPOS_DayFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NL_TR_FPOS_DayReportFile_01_SFTP_Upload_${__threadGroupName}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_DayReport_UploadDayReportFile_${__threadGroupName}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_NL_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${bDayReportfile}/</stringProp>
+            <stringProp name="hostname">${TG_NL_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_NL_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/NL/${StoreID}/${bDayReportfile}</stringProp>
+            <stringProp name="sshkeyfile">${TG_NL_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_NL_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">DayReport Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="UP_FPOS_AccDayFile_Variables_${__threadGroupName}" enabled="true">
+          <collectionProp name="UserParameters.names">
+            <stringProp name="2147457732">CurrTimeStamp</stringProp>
+          </collectionProp>
+          <collectionProp name="UserParameters.thread_values">
+            <collectionProp name="-102406363">
+              <stringProp name="1832931640">${__time(yyyyMMddHHmmss)}</stringProp>
+            </collectionProp>
+          </collectionProp>
+          <boolProp name="UserParameters.per_iteration">true</boolProp>
+        </UserParameters>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_AccDayFile_BuildParameters_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+// Get the current date and time
+Calendar calendar = Calendar.getInstance();
+calendar.add(Calendar.DAY_OF_MONTH, -1); // Subtract 1 day
+
+// Define the date format
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyyMMddHHmmss&quot;);
+
+// Format the date and time
+String PrevTimeStamp = sdf.format(calendar.getTime());
+
+// Set the variable for later use
+vars.put(&quot;PrevTimeStamp&quot;, PrevTimeStamp);
+// PrevTimeStamp End</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_AccDayFile_BuildAccDayReportFile_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">// Define the path to the existing file
+String filePath = &quot;../../TestData/FPOS_Templates/Prod/AccDay_Report.txt&quot;;
+String STID = vars.get(&quot;StoreID&quot;);
+
+// Define the base path for the output files
+String baseOutputPath = &quot;../../TestResults/NL/&quot; + STID + &quot;/&quot;;
+File storeIDFolder = new File(baseOutputPath);
+storeIDFolder.mkdirs();
+
+String counter = &quot;$(__counter(FALSE,0000))&quot;;
+String OPEN = vars.get(&quot;PrevTimeStamp&quot;); 
+String CLOS = vars.get(&quot;CurrTimeStamp&quot;); 
+String PER = vars.get(&quot;AccDayNum&quot;); 
+String STAP = vars.get(&quot;AccNextDayNum&quot;);
+String CLSP = vars.get(&quot;AccNextDayNum&quot;);
+String STAS1 = vars.get(&quot;T1ShiftID&quot;);
+String CLSS1 = vars.get(&quot;T1ShiftID&quot;);
+String STAS2 = vars.get(&quot;T2ShiftID&quot;);
+String CLSS2 = vars.get(&quot;T2ShiftID&quot;);
+String REP_NR = vars.get(&quot;AccDayNum&quot;);
+
+// Read the file content
+String fileContent = &quot;&quot;;
+try {
+    BufferedReader reader = new BufferedReader(new FileReader(filePath));
+    String line;
+    while ((line = reader.readLine()) != null) {
+        fileContent += line + &quot;\n&quot;;
+    }
+    reader.close();
+} catch (Exception e) {
+    log.error(&quot;Error reading file: &quot; + e);
+}
+
+// Replace dynamic values
+fileContent = fileContent.replace(&quot;###OPEN###&quot;, OPEN);
+fileContent = fileContent.replace(&quot;###CLOS###&quot;, CLOS);
+fileContent = fileContent.replace(&quot;###PER###&quot;, PER);
+fileContent = fileContent.replace(&quot;###STAP###&quot;, STAP);
+fileContent = fileContent.replace(&quot;###CLSP###&quot;, CLSP);
+fileContent = fileContent.replace(&quot;###STAS1###&quot;, STAS1);
+fileContent = fileContent.replace(&quot;###CLSS1###&quot;, CLSS1);
+fileContent = fileContent.replace(&quot;###STAS2###&quot;, STAS2);
+fileContent = fileContent.replace(&quot;###CLSS2###&quot;, CLSS2);
+fileContent = fileContent.replace(&quot;###REP_NR###&quot;, REP_NR);
+
+String BuildAccDayFile = baseOutputPath + STID + (&quot;0&quot; + PER) + &quot;.A&quot;;
+String BuildAccDayFilename = STID + (&quot;0&quot; + PER) + &quot;.A&quot;;
+vars.put(&quot;AccReportFile&quot;, BuildAccDayFilename);
+
+// Write the modified content to a new file
+try {
+    FileWriter writer = new FileWriter(BuildAccDayFile);
+    writer.write(fileContent);
+    writer.close();
+    log.info(&quot;File saved successfully: &quot; + BuildAccDayFile);
+} catch (Exception e) {
+    log.error(&quot;Error writing file: &quot; + e);
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="AccDayReport_TD" enabled="true">
+            <stringProp name="ConstantTimer.delay">${TG_NL_FPOS_AccDayFile_Sftp_TDelay}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="NL_TR_FPOS_AccDayReportFile_01_SFTP_Upload_${__threadGroupName}" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler guiclass="TestBeanGUI" testclass="org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler" testname="SFTP_FPOS_AccDayReport_UploadAccDayReportFile_${__threadGroupName}" enabled="true">
+            <stringProp name="action">put</stringProp>
+            <stringProp name="connectionTimeout">${TG_NL_FPOS_Conn_TimeOut}</stringProp>
+            <stringProp name="destination">/${StoreID}/${AccReportFile}/</stringProp>
+            <stringProp name="hostname">${TG_NL_FPOS_Sftp_Hostname}</stringProp>
+            <stringProp name="passphrase"></stringProp>
+            <stringProp name="password"></stringProp>
+            <stringProp name="port">${TG_NL_FPOS_Sftp_Port}</stringProp>
+            <boolProp name="printFile">true</boolProp>
+            <stringProp name="source">../../TestResults/NL/${StoreID}/${AccReportFile}</stringProp>
+            <stringProp name="sshkeyfile">${TG_NL_FPOS_Sftp_Key}</stringProp>
+            <stringProp name="username">${TG_NL_FPOS_Sftp_Username}</stringProp>
+          </org.apache.jmeter.protocol.ssh.sampler.SSHSFTPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="2524">OK</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">AccDayReport Not Uploaded</stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BS_FPOS_ShiftTotals_${__threadGroupName}" enabled="true">
+          <stringProp name="BeanShellSampler.query">// Retrieve values
+String storeID = vars.get(&quot;StoreID&quot;);
+String sumT1 = vars.get(&quot;sumT1&quot;);
+String sumT2 = vars.get(&quot;sumT2&quot;);
+String dayTurnValue = vars.get(&quot;TurnForDayReport&quot;);
+
+// Define the CSV file path
+String filePath = &quot;../../TestResults/NLTestReport.csv&quot;; // Replace with your desired file path
+
+// Create CSV content
+String csvContent = storeID + &quot;,&quot; + sumT1 + &quot;,&quot; + sumT2 + &quot;,&quot; + dayTurnValue + &quot;\n&quot;;
+
+// Write to the CSV file
+try {
+    File file = new File(filePath);
+    FileWriter fileWriter = new FileWriter(file, true);
+    BufferedWriter writer = new BufferedWriter(fileWriter);
+
+    // Check if file exists or not
+    if (!file.exists()) {
+        file.createNewFile();
+        writer.write(&quot;StoreID, sumT1, sumT2, DayTurnValue\n&quot;); // Add header if the file is newly created
+    }
+
+    // Write content to the file
+    writer.write(csvContent);
+
+    // Close the writer
+    writer.close();
+} catch (IOException e) {
+    log.error(&quot;Error writing to the file: &quot; + e);
+}</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="influxdbMetricsSender" elementType="Argument">
+              <stringProp name="Argument.name">influxdbMetricsSender</stringProp>
+              <stringProp name="Argument.value">org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxdbUrl" elementType="Argument">
+              <stringProp name="Argument.name">influxdbUrl</stringProp>
+              <stringProp name="Argument.value">http://10.70.5.11:8086/api/v2/write?org=LOA&amp;bucket=jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="application" elementType="Argument">
+              <stringProp name="Argument.name">application</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="measurement" elementType="Argument">
+              <stringProp name="Argument.name">measurement</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="summaryOnly" elementType="Argument">
+              <stringProp name="Argument.name">summaryOnly</stringProp>
+              <stringProp name="Argument.value">false</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersRegex" elementType="Argument">
+              <stringProp name="Argument.name">samplersRegex</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="percentiles" elementType="Argument">
+              <stringProp name="Argument.name">percentiles</stringProp>
+              <stringProp name="Argument.value">99;95;90</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="testTitle" elementType="Argument">
+              <stringProp name="Argument.name">testTitle</stringProp>
+              <stringProp name="Argument.value">Test name</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="eventTags" elementType="Argument">
+              <stringProp name="Argument.name">eventTags</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxdbToken" elementType="Argument">
+              <stringProp name="Argument.name">influxdbToken</stringProp>
+              <stringProp name="Argument.value">962kY2KLIvvV-HTD7-_sozzICu-wYlcwm7aKVPJw4veO3Pol_00H99xHRemPR57uwMucn3aT4VmY9AZcH04Ddg==</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient</stringProp>
+      </BackendListener>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

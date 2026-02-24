@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Shell_Peformance_Testing_v0.1" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="TD_Variables - CLI" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_PRL_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.value">${__P(TG_PRL_FPOS_Sftp_Hostname,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">${__P(TG_PRL_FPOS_Sftp_Username,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">${__P(TG_PRL_FPOS_Sftp_Key,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">${__P(TG_PRL_FPOS_Sftp_Port,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">${__P(TG_PRL_FPOS_Conn_TimeOut,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="TD_Variables - GUI" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TG_PRL_FPOS_Sftp_Hostname" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Hostname</stringProp>
+            <stringProp name="Argument.value">prl-d7-sftp.internal.pos.pditechnologies.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Username" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Username</stringProp>
+            <stringProp name="Argument.value">uk_sites_prl</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Key" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Key</stringProp>
+            <stringProp name="Argument.value">../../TestData/Keys/prl-d7-sftp-user-privatekey.pem</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Sftp_Port" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Sftp_Port</stringProp>
+            <stringProp name="Argument.value">22</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TG_PRL_FPOS_Conn_TimeOut" elementType="Argument">
+            <stringProp name="Argument.name">TG_PRL_FPOS_Conn_TimeOut</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="FPOS_Clear" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1246</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1200</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <stringProp name="TestPlan.comments">Deleting old transactions from sftp server</stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="filename">../../TestData/TestData_Prod/FPOS-Clear-Stores.csv</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">StoreID</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.group</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Deleting TRX_H1_H2_A_P" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import com.jcraft.jsch.*
+
+// SFTP server credentials
+String host = &quot;prl-d7-sftp.internal.pos.pditechnologies.com&quot;
+int port = 22
+String username = &quot;uk_sites_prl&quot;
+String privateKey = &quot;../../TestData/Keys/prl-d7-sftp-user-privatekey.pem&quot;
+String remoteDir = &quot;/${StoreID}/Archive/&quot;
+
+// File patterns to match
+List&lt;String&gt; filePatterns = [&quot;*.TRX&quot;, &quot;*.H1&quot;, &quot;*.H2&quot;, &quot;*.A&quot;, &quot;*.P&quot;]
+
+// Initialize JSch and session
+JSch jsch = new JSch()
+jsch.addIdentity(privateKey)
+
+Session session = null
+ChannelSftp channel = null
+
+try {
+    // Connect to the SFTP server
+    session = jsch.getSession(username, host, port)
+    session.setConfig(&quot;StrictHostKeyChecking&quot;, &quot;no&quot;)
+    session.connect()
+    
+    channel = (ChannelSftp) session.openChannel(&quot;sftp&quot;)
+    channel.connect()
+    
+    // Change to the target directory
+    channel.cd(remoteDir)
+
+    // Loop through each file pattern
+    filePatterns.each { pattern -&gt;
+        log.info(&quot;Looking for files matching: ${pattern}&quot;)
+
+        // List files in the directory matching the current pattern
+        Vector&lt;ChannelSftp.LsEntry&gt; files = channel.ls(pattern)
+
+        if (files.isEmpty()) {
+            log.info(&quot;No files matching ${pattern} found in ${remoteDir}&quot;)
+        } else {
+            files.each { file -&gt;
+                String fileName = file.filename
+                log.info(&quot;Deleting file: ${fileName}&quot;)
+                channel.rm(fileName) // Delete the file
+            }
+            log.info(&quot;All files matching ${pattern} have been deleted.&quot;)
+        }
+    }
+} catch (Exception e) {
+    log.error(&quot;Error occurred during SFTP operation: ${e.message}&quot;, e)
+} finally {
+    // Disconnect from the SFTP server
+    if (channel != null) channel.disconnect()
+    if (session != null) session.disconnect()
+}</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Deleting TRX_H1_H2_A_P" enabled="false">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import com.jcraft.jsch.*
+
+// SFTP server credentials
+String host = &quot;prl-d7-sftp.internal.pos.pditechnologies.com&quot;
+int port = 22
+String username = &quot;uk_sites_prl&quot;
+String privateKey = &quot;../../TestData/Keys/prl-d7-sftp-user-privatekey.pem&quot;
+String remoteDir = &quot;/PRL_D7_TEST/${StoreID}/&quot;
+
+// File patterns to match
+List&lt;String&gt; filePatterns = [&quot;*.TRX&quot;, &quot;*.H1&quot;, &quot;*.H2&quot;, &quot;*.A&quot;, &quot;*.P&quot;]
+
+// Initialize JSch and session
+JSch jsch = new JSch()
+jsch.addIdentity(privateKey)
+
+Session session = null
+ChannelSftp channel = null
+
+try {
+    // Connect to the SFTP server
+    session = jsch.getSession(username, host, port)
+    session.setConfig(&quot;StrictHostKeyChecking&quot;, &quot;no&quot;)
+    session.connect()
+    
+    channel = (ChannelSftp) session.openChannel(&quot;sftp&quot;)
+    channel.connect()
+    
+    // Change to the target directory
+    channel.cd(remoteDir)
+
+    // Loop through each file pattern
+    filePatterns.each { pattern -&gt;
+        log.info(&quot;Looking for files matching: ${pattern}&quot;)
+
+        // List files in the directory matching the current pattern
+        Vector&lt;ChannelSftp.LsEntry&gt; files = channel.ls(pattern)
+
+        if (files.isEmpty()) {
+            log.info(&quot;No files matching ${pattern} found in ${remoteDir}&quot;)
+        } else {
+            files.each { file -&gt;
+                String fileName = file.filename
+                log.info(&quot;Deleting file: ${fileName}&quot;)
+                channel.rm(fileName) // Delete the file
+            }
+            log.info(&quot;All files matching ${pattern} have been deleted.&quot;)
+        }
+    }
+} catch (Exception e) {
+    log.error(&quot;Error occurred during SFTP operation: ${e.message}&quot;, e)
+} finally {
+    // Disconnect from the SFTP server
+    if (channel != null) channel.disconnect()
+    if (session != null) session.disconnect()
+}</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

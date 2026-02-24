@@ -1,0 +1,40 @@
+@Library('pos-orbis') _
+OrbisNoBuild{
+  scm = [
+    project       : '1373699a-82a3-439d-93ee-e1ba177a9a47',
+    repo          : 'orbis-performance-testing-d7',
+    branch        : 'BRANCH_NAME',
+    svcName       : 'orbis-performance-testing-d7',
+    status        : [
+      genre             : 'Gated-Build',
+      updatePullRequest : false,
+      updateCommit      : true
+    ]
+  ]
+
+  notifications = [
+    email : [
+      do         : false,
+      recipients : '',
+      gitAuthors : false
+    ],
+    glip : [
+      do : false
+    ]
+  ]
+
+  pipelineBehaviors = [
+    stages : [
+      archive : true,
+      tag     : true
+    ]
+  ]
+
+  artifactoryRepos = [
+    destination : 'pos-orbis',
+  ]
+
+  deployment = [
+    jobName           : 'POS-Orbis/CD/Create_Build_Servers%20(AMIs)'
+  ]
+}
